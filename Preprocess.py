@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import re
 log_data= pd.read_csv(r'C:/Users/User/Desktop/DELL/filtered_data_June.csv')
 # print(log_data.head())
 # print(list(log_data.columns))
@@ -12,6 +13,20 @@ log_data= pd.read_csv(r'C:/Users/User/Desktop/DELL/filtered_data_June.csv')
 df=log_data.groupby('cf_app_name').agg(lambda x: list(x))
 df.drop(['source_instance'],axis=1)
 print(df)
+print(list(df.columns))
+for i in log_data.index:
+    # print(df['shortmessage'][i])
+    # print('\n')
+   x= re.search(r'message-data-start =>(.*)message-data-end',log_data['shortmessage'][i])
+#    x= re.search(r'\s',log_data['shortmessage'][i])
+   if x is not None:
+       print(x.group(1))
+#    pos1
+#    if not x:
+#        print("\n")
+#     else:
+#         print(x)
+
 # with open("/home/manika/Desktop/Dell/filtered_data_June.csv") as csvDataFile:
 #     data = [row for row in csv.reader(csvDataFile)]
 #     data=data[1:5]

@@ -1,0 +1,832 @@
+Column1,timestamp8601,@message,cf_app_name,level,x1,x2,x3
+0,"June 17th 2020, 13:29:59.980","""116.179.32.213,",soitrp,info,,116.179.32.213,
+1,"June 17th 2020, 13:29:59.980","""178.154.200.99,",soitrp,info,,178.154.200.99,
+2,"June 17th 2020, 13:29:59.979","""24.106.49.50,",soitrp,info,,24.106.49.50,
+3,"June 17th 2020, 13:29:59.979","""49.36.8.46,",soitrp,info,,49.36.8.46,
+4,"June 17th 2020, 13:29:59.867","""71.202.79.178,",soitrp,info,,71.202.79.178,
+5,"June 17th 2020, 13:29:59.867","""109.129.153.150,",soitrp,info,,109.129.153.150,
+6,"June 17th 2020, 13:29:59.858",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+7,"June 17th 2020, 13:29:59.829","""",Support-Client,info,,,""""
+8,"June 17th 2020, 13:29:59.825","""106.202.118.154,",soitrp,info,,106.202.118.154,
+10,"June 17th 2020, 13:29:59.690","""12.217.105.66,",soitrp,info,,12.217.105.66,
+11,"June 17th 2020, 13:29:59.594","""199.216.68.2,",soitrp,info,,199.216.68.2,
+12,"June 17th 2020, 13:29:59.579","""",Support-Client,info,,,""""
+14,"June 17th 2020, 13:29:59.569","""",Support-Client,info,,,""""
+16,"June 17th 2020, 13:29:59.554","""10.135.81.130,",soitrp,info,,10.135.81.130,
+17,"June 17th 2020, 13:29:59.546","      @@@JwtHelper.Validate.Exception:IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII is hidden]'.",KbArticle-UX,info,,,"      @@@JwtHelper.Validate.Exception:IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII is hidden]'."
+18,"June 17th 2020, 13:29:59.516","""81.40.35.150,",soitrp,info,,81.40.35.150,
+20,"June 17th 2020, 13:29:59.485",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Cache.DistributedCacheProvider[0],drivers-ux,info, Dell.SupportOnline.Cache.DistributedCacheProvider[0],,
+22,"June 17th 2020, 13:29:59.381","[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]",sba-api-gateway-prod-13320515,info,,,"[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]"
+23,"June 17th 2020, 13:29:59.381","""2020-06-17",sba-api-gateway-prod-13320515,info,,,"""2020-06-17"
+24,"June 17th 2020, 13:29:59.373","""207.195.39.195,",soitrp,info,,207.195.39.195,
+25,"June 17th 2020, 13:29:59.370","""54.84.126.201,",soitrp,info,,54.84.126.201,
+26,"June 17th 2020, 13:29:59.368","""12.186.50.210,",soitrp,info,,12.186.50.210,
+27,"June 17th 2020, 13:29:59.368","""",Support-Client,info,,,""""
+28,"June 17th 2020, 13:29:59.368","""71.178.199.157,",soitrp,info,,71.178.199.157,
+30,"June 17th 2020, 13:29:59.365","""",Support-Client,info,,,""""
+31,"June 17th 2020, 13:29:59.356",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery[7],flatcontents-ux,info, Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery[7],,
+33,"June 17th 2020, 13:29:59.202","""50.199.130.33,",soitrp,info,,50.199.130.33,
+35,"June 17th 2020, 13:29:58.971","""66.249.79.159,",soitrp,info,,66.249.79.159,
+36,"June 17th 2020, 13:29:58.969","[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]",sba-api-gateway-prod-13320515,info,,,"[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]"
+37,"June 17th 2020, 13:29:58.967","""2020-06-17",sba-api-gateway-prod-13320515,info,,,"""2020-06-17"
+38,"June 17th 2020, 13:29:58.950",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Support.Product.Search.Api.Controllers.CatalogController[0],ProductSelectorApi,info, Dell.Support.Product.Search.Api.Controllers.CatalogController[0],,
+39,"June 17th 2020, 13:29:58.936","""106.11.158.92,",soitrp,info,,106.11.158.92,
+40,"June 17th 2020, 13:29:58.934","""131.193.206.235,",soitrp,info,,131.193.206.235,
+41,"June 17th 2020, 13:29:58.887","""47.147.1.239,",soitrp,info,,47.147.1.239,
+42,"June 17th 2020, 13:29:58.887","""12.186.50.210,",soitrp,info,,12.186.50.210,
+43,"June 17th 2020, 13:29:58.851","""89.210.210.139,",soitrp,info,,89.210.210.139,
+44,"June 17th 2020, 13:29:58.851","""42.111.24.21,",soitrp,info,,42.111.24.21,
+45,"June 17th 2020, 13:29:58.832","""140.194.40.37,",soitrp,info,,140.194.40.37,
+46,"June 17th 2020, 13:29:58.832","""108.35.2.72,",soitrp,info,,108.35.2.72,
+47,"June 17th 2020, 13:29:58.800","""181.179.27.161,",soitrp,info,,181.179.27.161,
+48,"June 17th 2020, 13:29:58.800","""5.197.148.165,",soitrp,info,,5.197.148.165,
+49,"June 17th 2020, 13:29:58.753","""108.209.228.78,",soitrp,info,,108.209.228.78,
+50,"June 17th 2020, 13:29:58.753","""181.239.34.47,",soitrp,info,,181.239.34.47,
+51,"June 17th 2020, 13:29:58.751","""198.72.7.21,",soitrp,info,,198.72.7.21,
+52,"June 17th 2020, 13:29:58.751","""168.96.255.111,",soitrp,info,,168.96.255.111,
+53,"June 17th 2020, 13:29:58.607","""68.46.1.145,",soitrp,info,,68.46.1.145,
+54,"June 17th 2020, 13:29:58.604","""111.206.198.105,",soitrp,info,,111.206.198.105,
+55,"June 17th 2020, 13:29:58.600","""207.189.250.146,",soitrp,info,,207.189.250.146,
+56,"June 17th 2020, 13:29:58.534","""100.14.146.65,",soitrp,info,,100.14.146.65,
+57,"June 17th 2020, 13:29:58.494","""",Support-Client,info,,,""""
+58,"June 17th 2020, 13:29:58.442","""50.248.12.182,",soitrp,info,,50.248.12.182,
+59,"June 17th 2020, 13:29:58.415","""205.228.82.172,",soitrp,info,,205.228.82.172,
+60,"June 17th 2020, 13:29:58.406",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Support.Product.Search.Api.Controllers.CatalogController[0],ProductSelectorApi,info, Dell.Support.Product.Search.Api.Controllers.CatalogController[0],,
+63,"June 17th 2020, 13:29:58.246","""",Support-Client,info,,,""""
+64,"June 17th 2020, 13:29:58.246","""",Support-Client,info,,,""""
+67,"June 17th 2020, 13:29:58.236","""",Support-Client,info,,,""""
+69,"June 17th 2020, 13:29:58.235","""",Support-Client,info,,,""""
+70,"June 17th 2020, 13:29:58.226","""202.164.148.68,",soitrp,info,,202.164.148.68,
+71,"June 17th 2020, 13:29:58.226","""103.7.61.162,",soitrp,info,,103.7.61.162,
+72,"June 17th 2020, 13:29:57.983",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+73,"June 17th 2020, 13:29:57.982",      Removed :PYPID - 68880c45-20d4-44e2-956d-7081b92283cc,SupportOnlinePurchasedproductsApi,info,,,      Removed :PYPID - 68880c45-20d4-44e2-956d-7081b92283cc
+74,"June 17th 2020, 13:29:57.972",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+75,"June 17th 2020, 13:29:57.966",      Removed :PYSID - c0c443f4-22df-4b0f-bc49-bf9396a10b41,SupportOnlinePurchasedproductsApi,info,,,      Removed :PYSID - c0c443f4-22df-4b0f-bc49-bf9396a10b41
+76,"June 17th 2020, 13:29:57.965",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+77,"June 17th 2020, 13:29:57.965",      Not Mapped: aud,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: aud
+78,"June 17th 2020, 13:29:57.954",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+79,"June 17th 2020, 13:29:57.944",      Not Mapped: iss,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: iss
+80,"June 17th 2020, 13:29:57.936",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+81,"June 17th 2020, 13:29:57.925",      Not Mapped: iat,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: iat
+82,"June 17th 2020, 13:29:57.925",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+83,"June 17th 2020, 13:29:57.916",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+84,"June 17th 2020, 13:29:57.916",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+85,"June 17th 2020, 13:29:57.916",      Not Mapped: exp,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: exp
+86,"June 17th 2020, 13:29:57.916",      Not Mapped: ssid,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: ssid
+87,"June 17th 2020, 13:29:57.916",      Not Mapped: nbf,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: nbf
+88,"June 17th 2020, 13:29:57.909",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+89,"June 17th 2020, 13:29:57.909",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+90,"June 17th 2020, 13:29:57.909",      Mapped : FH to FactorHistory,SupportOnlinePurchasedproductsApi,info,,,      Mapped : FH to FactorHistory
+91,"June 17th 2020, 13:29:57.904",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+92,"June 17th 2020, 13:29:57.904",      Mapped : PH to ProtocolHistory,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PH to ProtocolHistory
+93,"June 17th 2020, 13:29:56.890",      Mapped : CH to ConnectionHistory,SupportOnlinePurchasedproductsApi,info,,,      Mapped : CH to ConnectionHistory
+94,"June 17th 2020, 13:29:56.889",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+95,"June 17th 2020, 13:29:56.882",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+96,"June 17th 2020, 13:29:56.882",      Mapped : IH to IdpHistory,SupportOnlinePurchasedproductsApi,info,,,      Mapped : IH to IdpHistory
+97,"June 17th 2020, 13:29:56.882",      Not Mapped: connectionName,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: connectionName
+98,"June 17th 2020, 13:29:56.881",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+99,"June 17th 2020, 13:29:56.880",      Not Mapped: instanceid,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: instanceid
+100,"June 17th 2020, 13:29:56.880",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+101,"June 17th 2020, 13:29:56.880",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+102,"June 17th 2020, 13:29:56.880",      Not Mapped: http://www.dell.com/identity/claims/profile/fingerprint,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: http://www.dell.com/identity/claims/profile/fingerprint
+103,"June 17th 2020, 13:29:56.880",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+104,"June 17th 2020, 13:29:56.880",      Not Mapped: http://www.dell.com/identity/connectionName,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: http://www.dell.com/identity/connectionName
+105,"June 17th 2020, 13:29:56.879",      Mapped : PYIID to http://www.dell.com/identity/claims/session/instanceid,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYIID to http://www.dell.com/identity/claims/session/instanceid
+106,"June 17th 2020, 13:29:56.879",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+107,"June 17th 2020, 13:29:56.877",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+108,"June 17th 2020, 13:29:56.877",      Not Mapped: authenticationsource,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: authenticationsource
+109,"June 17th 2020, 13:29:56.877",      Not Mapped: accountid,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: accountid
+110,"June 17th 2020, 13:29:56.877",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+111,"June 17th 2020, 13:29:56.877",      Mapped : PYACID to http://www.dell.com/identity/claims/accountid,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYACID to http://www.dell.com/identity/claims/accountid
+112,"June 17th 2020, 13:29:56.877",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+113,"June 17th 2020, 13:29:56.876",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+115,"June 17th 2020, 13:29:56.876","""",Support-Client,info,,,""""
+116,"June 17th 2020, 13:29:56.876",      Mapped : PYSR to http://www.dell.com/identity/claims/authentication/source,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYSR to http://www.dell.com/identity/claims/authentication/source
+117,"June 17th 2020, 13:29:56.874",      Not Mapped: authenticationstatus,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: authenticationstatus
+118,"June 17th 2020, 13:29:56.874","""",Support-Client,info,,,""""
+119,"June 17th 2020, 13:29:56.865",      Mapped : PYST to http://www.dell.com/identity/claims/authentication/status,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYST to http://www.dell.com/identity/claims/authentication/status
+120,"June 17th 2020, 13:29:56.865",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+121,"June 17th 2020, 13:29:56.862",      Not Mapped: authenticationtype,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: authenticationtype
+122,"June 17th 2020, 13:29:56.862",      Mapped : PYATY to http://www.dell.com/identity/claims/authentication/type,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYATY to http://www.dell.com/identity/claims/authentication/type
+123,"June 17th 2020, 13:29:56.862",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+124,"June 17th 2020, 13:29:56.862",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+125,"June 17th 2020, 13:29:56.862",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+126,"June 17th 2020, 13:29:56.861",      Not Mapped: emailaddress,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: emailaddress
+127,"June 17th 2020, 13:29:56.861",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+128,"June 17th 2020, 13:29:56.858",      Mapped : PYEID to http://www.dell.com/identity/claims/profile/emailaddress,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYEID to http://www.dell.com/identity/claims/profile/emailaddress
+129,"June 17th 2020, 13:29:56.858",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+130,"June 17th 2020, 13:29:56.856",      @@@ RenewSessionHandler.ProcessRequest,SupportOnlinePurchasedproductsApi,info,,,      @@@ RenewSessionHandler.ProcessRequest
+131,"June 17th 2020, 13:29:56.856",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.RenewSessionHandler[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Pipeline.RenewSessionHandler[0],,
+132,"June 17th 2020, 13:29:56.856",      No Valid Claims found in Header,SupportOnlinePurchasedproductsApi,info,,,      No Valid Claims found in Header
+133,"June 17th 2020, 13:29:56.855",      No Action Strategy seleted,SupportOnlinePurchasedproductsApi,info,,,      No Action Strategy seleted
+134,"June 17th 2020, 13:29:56.855",      @@@PopulateUserIdentityFromHeaderHandler.ProcessRequest,SupportOnlinePurchasedproductsApi,info,,,      @@@PopulateUserIdentityFromHeaderHandler.ProcessRequest
+135,"June 17th 2020, 13:29:56.855",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],,
+136,"June 17th 2020, 13:29:56.855",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],,
+137,"June 17th 2020, 13:29:56.848",      @@@ClientSecurityContextHandler.ProcessRequest,SupportOnlinePurchasedproductsApi,info,,,      @@@ClientSecurityContextHandler.ProcessRequest
+138,"June 17th 2020, 13:29:56.848",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Utilities.Chain[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Utilities.Chain[0],,
+139,"June 17th 2020, 13:29:56.848",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Business.ActionStrategy.CoreStrategySelector[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Business.ActionStrategy.CoreStrategySelector[0],,
+140,"June 17th 2020, 13:29:56.848",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],,
+141,"June 17th 2020, 13:29:56.848",      Not Mapped: lastname,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: lastname
+142,"June 17th 2020, 13:29:56.848",      @@@Chain.Authenticate,SupportOnlinePurchasedproductsApi,info,,,      @@@Chain.Authenticate
+143,"June 17th 2020, 13:29:56.847",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+144,"June 17th 2020, 13:29:56.838",      Mapped : PYLN to http://www.dell.com/identity/claims/profile/lastname,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYLN to http://www.dell.com/identity/claims/profile/lastname
+145,"June 17th 2020, 13:29:56.837",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+146,"June 17th 2020, 13:29:56.836",      Not Mapped: firstname,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: firstname
+147,"June 17th 2020, 13:29:56.836",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+148,"June 17th 2020, 13:29:56.831",      Not Mapped: username,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: username
+149,"June 17th 2020, 13:29:56.831",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+150,"June 17th 2020, 13:29:56.831",      Mapped : PYFN to http://www.dell.com/identity/claims/profile/firstname,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYFN to http://www.dell.com/identity/claims/profile/firstname
+151,"June 17th 2020, 13:29:56.824",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+152,"June 17th 2020, 13:29:56.824",      Mapped : PYUN to http://www.dell.com/identity/claims/profile/username,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYUN to http://www.dell.com/identity/claims/profile/username
+153,"June 17th 2020, 13:29:56.822",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+154,"June 17th 2020, 13:29:56.814",      Not Mapped: id,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: id
+155,"June 17th 2020, 13:29:56.813",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+156,"June 17th 2020, 13:29:56.812",      Mapped : PYPID to http://www.dell.com/identity/claims/profile/id,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYPID to http://www.dell.com/identity/claims/profile/id
+157,"June 17th 2020, 13:29:56.809",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+158,"June 17th 2020, 13:29:56.808",      Mapped : PYSID to http://www.dell.com/identity/claims/session/id,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYSID to http://www.dell.com/identity/claims/session/id
+159,"June 17th 2020, 13:29:56.807",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+160,"June 17th 2020, 13:29:56.807","""189.146.165.19,",soitrp,info,,189.146.165.19,
+161,"June 17th 2020, 13:29:56.800",      shortnameenabled  : True and claims found,SupportOnlinePurchasedproductsApi,info,,,      shortnameenabled  : True and claims found
+162,"June 17th 2020, 13:29:56.797",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+163,"June 17th 2020, 13:29:56.796",      cstTimeNow:6/17/20 1:29:47 PM,SupportOnlinePurchasedproductsApi,info,,,      cstTimeNow:6/17/20 1:29:47 PM
+164,"June 17th 2020, 13:29:56.796",      time difference:7,SupportOnlinePurchasedproductsApi,info,,,      time difference:7
+165,"June 17th 2020, 13:29:56.796",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+166,"June 17th 2020, 13:29:56.789",      appCstTimeZoneDisplayName:Central Standard Time,SupportOnlinePurchasedproductsApi,info,,,      appCstTimeZoneDisplayName:Central Standard Time
+167,"June 17th 2020, 13:29:56.789",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+168,"June 17th 2020, 13:29:56.789",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+169,"June 17th 2020, 13:29:56.783",      appCstTimeZoneId from connection:America/Matamoros,SupportOnlinePurchasedproductsApi,info,,,      appCstTimeZoneId from connection:America/Matamoros
+170,"June 17th 2020, 13:29:56.782",      Parsed latdatetime:6/17/20 1:22:29 PM,SupportOnlinePurchasedproductsApi,info,,,      Parsed latdatetime:6/17/20 1:22:29 PM
+171,"June 17th 2020, 13:29:56.782",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+172,"June 17th 2020, 13:29:56.776",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+173,"June 17th 2020, 13:29:56.776",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+174,"June 17th 2020, 13:29:56.775",      Added ClaimsPrincipal received from Authenticate to context.User,SupportOnlinePurchasedproductsApi,info,,,      Added ClaimsPrincipal received from Authenticate to context.User
+175,"June 17th 2020, 13:29:56.773",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Middlewares.DaisAuthenticationMiddleware[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Middlewares.DaisAuthenticationMiddleware[0],,
+176,"June 17th 2020, 13:29:56.768",      @@@DaisAuthenticationMiddleware.Invoke,SupportOnlinePurchasedproductsApi,info,,,      @@@DaisAuthenticationMiddleware.Invoke
+177,"June 17th 2020, 13:29:56.658","""200.185.64.76,",soitrp,info,,200.185.64.76,
+178,"June 17th 2020, 13:29:56.658","""65.153.174.154,",soitrp,info,,65.153.174.154,
+179,"June 17th 2020, 13:29:56.658","""123.126.113.158,",soitrp,info,,123.126.113.158,
+180,"June 17th 2020, 13:29:56.538","""192.207.205.114,",soitrp,info,,192.207.205.114,
+181,"June 17th 2020, 13:29:56.538","""108.35.2.72,",soitrp,info,,108.35.2.72,
+184,"June 17th 2020, 13:29:56.471","""",Support-Client,info,,,""""
+185,"June 17th 2020, 13:29:56.470","""",Support-Client,info,,,""""
+188,"June 17th 2020, 13:29:56.457","""",Support-Client,info,,,""""
+189,"June 17th 2020, 13:29:56.455","""",Support-Client,info,,,""""
+191,"June 17th 2020, 13:29:56.439","""162.211.108.245,",soitrp,info,,162.211.108.245,
+192,"June 17th 2020, 13:29:56.439","""213.180.203.42,",soitrp,info,,213.180.203.42,
+194,"June 17th 2020, 13:29:55.436","""",Support-Client,info,,,""""
+195,"June 17th 2020, 13:29:55.353","""174.55.115.160,",soitrp,info,,174.55.115.160,
+196,"June 17th 2020, 13:29:55.352","""94.202.142.33,",soitrp,info,,94.202.142.33,
+197,"June 17th 2020, 13:29:55.350","""89.231.176.40,",soitrp,info,,89.231.176.40,
+198,"June 17th 2020, 13:29:55.349","""12.186.50.210,",soitrp,info,,12.186.50.210,
+199,"June 17th 2020, 13:29:55.192","""50.239.6.58,",soitrp,info,,50.239.6.58,
+200,"June 17th 2020, 13:29:55.188","""173.90.165.130,",soitrp,info,,173.90.165.130,
+201,"June 17th 2020, 13:29:55.087","""83.113.121.33,",soitrp,info,,83.113.121.33,
+202,"June 17th 2020, 13:29:54.785","""",Support-Client,info,,,""""
+204,"June 17th 2020, 13:29:54.751",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Incidents.Search.Core.Services.SupportHistory.CaseJournalService[0],incident-searchapi,info, Dell.SupportOnline.Incidents.Search.Core.Services.SupportHistory.CaseJournalService[0],,
+205,"June 17th 2020, 13:29:54.420","""",Support-Client,info,,,""""
+208,"June 17th 2020, 13:29:54.370","""",Support-Client,info,,,""""
+211,"June 17th 2020, 13:29:54.239","""",Support-Client,info,,,""""
+214,"June 17th 2020, 13:29:54.091","""201.235.128.147,",soitrp,info,,201.235.128.147,
+215,"June 17th 2020, 13:29:54.059","""66.249.79.141,",soitrp,info,,66.249.79.141,
+216,"June 17th 2020, 13:29:54.025","""131.215.248.240,",soitrp,info,,131.215.248.240,
+217,"June 17th 2020, 13:29:54.025","""96.236.214.130,",soitrp,info,,96.236.214.130,
+218,"June 17th 2020, 13:29:54.024","""24.104.82.73,",soitrp,info,,24.104.82.73,
+219,"June 17th 2020, 13:29:54.024","""199.247.43.26,",soitrp,info,,199.247.43.26,
+220,"June 17th 2020, 13:29:53.984",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],incidents-dellcasesapi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+222,"June 17th 2020, 13:29:53.970",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Cache.DistributedCacheProvider[0],drivers-ux,info, Dell.SupportOnline.Cache.DistributedCacheProvider[0],,
+223,"June 17th 2020, 13:29:53.962",      Request finished in 0.904ms 200 application/json; charset=utf-8,SupportOnlineSecureUrlApi,info,,,      Request finished in 0.904ms 200 application/json; charset=utf-8
+224,"June 17th 2020, 13:29:53.962",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+225,"June 17th 2020, 13:29:53.962",      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.3779ms,SupportOnlineSecureUrlApi,info,,,      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.3779ms
+226,"June 17th 2020, 13:29:53.960","      Executing ObjectResult, writing value of type 'System.String'.",SupportOnlineSecureUrlApi,info,,,"      Executing ObjectResult, writing value of type 'System.String'."
+227,"June 17th 2020, 13:29:53.960",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+228,"June 17th 2020, 13:29:53.960",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],,
+229,"June 17th 2020, 13:29:53.959","      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0017ms.",SupportOnlineSecureUrlApi,info,,,"      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0017ms."
+230,"June 17th 2020, 13:29:53.959",      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid,SupportOnlineSecureUrlApi,info,,,      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid
+231,"June 17th 2020, 13:29:53.959",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+232,"June 17th 2020, 13:29:53.959",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+233,"June 17th 2020, 13:29:53.957",      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  ,SupportOnlineSecureUrlApi,info,,,      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  
+234,"June 17th 2020, 13:29:53.957","""",SupportOnlineSecureUrlApi,info,,,""""
+235,"June 17th 2020, 13:29:53.957",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+236,"June 17th 2020, 13:29:53.947","""178.154.200.152,",soitrp,info,,178.154.200.152,
+237,"June 17th 2020, 13:29:53.947","""174.62.243.82,",soitrp,info,,174.62.243.82,
+238,"June 17th 2020, 13:29:53.947","""10.135.152.101,",soitrp,info,,10.135.152.101,
+239,"June 17th 2020, 13:29:53.889","""112.45.247.226,",soitrp,info,,112.45.247.226,
+240,"June 17th 2020, 13:29:53.769",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+241,"June 17th 2020, 13:29:53.757","""172.21.73.242",staticcdn-prod,info,,,"""172.21.73.242"
+242,"June 17th 2020, 13:29:53.756","""172.21.73.242",staticcdn-prod,info,,,"""172.21.73.242"
+243,"June 17th 2020, 13:29:53.754","""10.178.138.83,",staticcdn-prod,info,,10.178.138.83,
+245,"June 17th 2020, 13:29:53.670",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Support.Product.Search.Api.Controllers.CatalogController[0],ProductSelectorApi,info, Dell.Support.Product.Search.Api.Controllers.CatalogController[0],,
+247,"June 17th 2020, 13:29:53.606","""",Support-Client,info,,,""""
+248,"June 17th 2020, 13:29:53.606","""",Support-Client,info,,,""""
+251,"June 17th 2020, 13:29:53.604","""66.249.79.113,",soitrp,info,,66.249.79.113,
+252,"June 17th 2020, 13:29:53.604","""167.1.179.38,",soitrp,info,,167.1.179.38,
+253,"June 17th 2020, 13:29:53.578",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+254,"June 17th 2020, 13:29:53.308","""54.84.126.201,",soitrp,info,,54.84.126.201,
+255,"June 17th 2020, 13:29:53.303","""10.107.28.194,",soitrp,info,,10.107.28.194,
+256,"June 17th 2020, 13:29:53.300","""54.84.126.201,",soitrp,info,,54.84.126.201,
+257,"June 17th 2020, 13:29:53.127","""",Support-Client,info,,,""""
+259,"June 17th 2020, 13:29:52.975","""45.4.31.82,",soitrp,info,,45.4.31.82,
+260,"June 17th 2020, 13:29:52.975","""209.37.168.178,",soitrp,info,,209.37.168.178,
+261,"June 17th 2020, 13:29:52.969","""85.144.232.194,",soitrp,info,,85.144.232.194,
+262,"June 17th 2020, 13:29:52.968","""174.55.115.160,",soitrp,info,,174.55.115.160,
+264,"June 17th 2020, 13:29:52.941","""",Support-Client,info,,,""""
+266,"June 17th 2020, 13:29:52.941","""",Support-Client,info,,,""""
+267,"June 17th 2020, 13:29:52.940","""",Support-Client,info,,,""""
+269,"June 17th 2020, 13:29:52.928","""",Support-Client,info,,,""""
+271,"June 17th 2020, 13:29:52.913","""134.215.172.189,",soitrp,info,,134.215.172.189,
+272,"June 17th 2020, 13:29:52.913","""89.210.210.139,",soitrp,info,,89.210.210.139,
+273,"June 17th 2020, 13:29:52.913","""27.62.48.195,",soitrp,info,,27.62.48.195,
+274,"June 17th 2020, 13:29:52.913","""37.228.249.106,",soitrp,info,,37.228.249.106,
+275,"June 17th 2020, 13:29:52.850","""66.249.79.89,",soitrp,info,,66.249.79.89,
+276,"June 17th 2020, 13:29:52.560","""-",svc-soitrp,info,,,"""-"
+277,"June 17th 2020, 13:29:52.559","""72.130.145.222,",soitrp,info,,72.130.145.222,
+278,"June 17th 2020, 13:29:52.559","""68.129.9.77,",soitrp,info,,68.129.9.77,
+279,"June 17th 2020, 13:29:52.455","""69.8.120.204,",soitrp,info,,69.8.120.204,
+280,"June 17th 2020, 13:29:52.455","""68.186.11.26,",soitrp,info,,68.186.11.26,
+281,"June 17th 2020, 13:29:52.449","""40.77.167.6,",soitrp,info,,40.77.167.6,
+282,"June 17th 2020, 13:29:52.420","""47.135.195.216,",soitrp,info,,47.135.195.216,
+284,"June 17th 2020, 13:29:52.414","""",Support-Client,info,,,""""
+285,"June 17th 2020, 13:29:52.409",userIds           1000074534,sba-api-gateway-prod-13320515,info,,,userIds           1000074534
+286,"June 17th 2020, 13:29:52.409","""",Support-Client,info,,,""""
+287,"June 17th 2020, 13:29:52.409","""",Support-Client,info,,,""""
+289,"June 17th 2020, 13:29:52.409","      SupportAssistLogEntry,8T8CHK2,AutoInstall, Exit 0 - Realtek-PCIE-Memory-Card-Reader-Driver_7NGWT_WIN_10.0.15063.21299_A00_02.EXE",Support-Client,info,,,"      SupportAssistLogEntry,8T8CHK2,AutoInstall, Exit 0 - Realtek-PCIE-Memory-Card-Reader-Driver_7NGWT_WIN_10.0.15063.21299_A00_02.EXE"
+292,"June 17th 2020, 13:29:52.403","""",Support-Client,info,,,""""
+295,"June 17th 2020, 13:29:52.397","""",Support-Client,info,,,""""
+297,"June 17th 2020, 13:29:52.397","""",Support-Client,info,,,""""
+298,"June 17th 2020, 13:29:52.397","""",Support-Client,info,,,""""
+299,"June 17th 2020, 13:29:52.380","""68.109.69.209,",soitrp,info,,68.109.69.209,
+301,"June 17th 2020, 13:29:52.357","""",Support-Client,info,,,""""
+302,"June 17th 2020, 13:29:52.353","""",Support-Client,info,,,""""
+304,"June 17th 2020, 13:29:52.322","""172.20.135.243",staticcdn-prod,info,,,"""172.20.135.243"
+305,"June 17th 2020, 13:29:52.312","""2020-06-17",sba-api-gateway-prod-13320515,info,,,"""2020-06-17"
+306,"June 17th 2020, 13:29:52.309",      Executed action Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) in 7.7641ms,SupportOnlineSecureUrlApi,info,,,      Executed action Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) in 7.7641ms
+307,"June 17th 2020, 13:29:52.309",      Request finished in 9.027ms 400 application/json; charset=utf-8,SupportOnlineSecureUrlApi,info,,,      Request finished in 9.027ms 400 application/json; charset=utf-8
+308,"June 17th 2020, 13:29:52.309",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+309,"June 17th 2020, 13:29:52.308",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+310,"June 17th 2020, 13:29:52.306","      Executing ObjectResult, writing value of type 'Dell.SupportOnline.SecureUrl.Utilities.Envelope'.",SupportOnlineSecureUrlApi,info,,,"      Executing ObjectResult, writing value of type 'Dell.SupportOnline.SecureUrl.Utilities.Envelope'."
+312,"June 17th 2020, 13:29:52.272","""",Support-Client,info,,,""""
+313,"June 17th 2020, 13:29:52.270","""",Support-Client,info,,,""""
+315,"June 17th 2020, 13:29:52.192","""",Support-Client,info,,,""""
+317,"June 17th 2020, 13:29:52.015","""",Support-Client,info,,,""""
+320,"June 17th 2020, 13:29:52.015","""",Support-Client,info,,,""""
+321,"June 17th 2020, 13:29:52.015","""",Support-Client,info,,,""""
+323,"June 17th 2020, 13:29:52.014","""",Support-Client,info,,,""""
+325,"June 17th 2020, 13:29:52.000","""158.68.216.90,",soitrp,info,,158.68.216.90,
+327,"June 17th 2020, 13:29:51.987","""",Support-Client,info,,,""""
+329,"June 17th 2020, 13:29:51.984","""",Support-Client,info,,,""""
+330,"June 17th 2020, 13:29:51.980",      Request finished in 2.1843ms 200 application/json; charset=utf-8,SupportOnlineSecureUrlApi,info,,,      Request finished in 2.1843ms 200 application/json; charset=utf-8
+331,"June 17th 2020, 13:29:51.978",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+332,"June 17th 2020, 13:29:51.977",      Executed action Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) in 0.8462ms,SupportOnlineSecureUrlApi,info,,,      Executed action Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) in 0.8462ms
+333,"June 17th 2020, 13:29:51.976",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+334,"June 17th 2020, 13:29:51.975","      Executing ObjectResult, writing value of type 'Dell.SupportOnline.SecureUrl.Utilities.Envelope`1[[System.Collections.Generic.List`1[[Dell.SupportOnline.SecureUrl.Model.Response, Dell.SupportOnline.SecureUrl, Version=1.1.121.383, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.",SupportOnlineSecureUrlApi,info,,,"      Executing ObjectResult, writing value of type 'Dell.SupportOnline.SecureUrl.Utilities.Envelope`1[[System.Collections.Generic.List`1[[Dell.SupportOnline.SecureUrl.Model.Response, Dell.SupportOnline.SecureUrl, Version=1.1.121.383, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'."
+335,"June 17th 2020, 13:29:51.974","      Executed action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1505ms.",SupportOnlineSecureUrlApi,info,,,"      Executed action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1505ms."
+336,"June 17th 2020, 13:29:51.974",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],,
+337,"June 17th 2020, 13:29:51.972",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+338,"June 17th 2020, 13:29:51.971",      Executing action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) with arguments (Dell.SupportOnline.SecureUrl.Model.SecureUrlRequest) - Validation state: Valid,SupportOnlineSecureUrlApi,info,,,      Executing action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) with arguments (Dell.SupportOnline.SecureUrl.Model.SecureUrlRequest) - Validation state: Valid
+339,"June 17th 2020, 13:29:51.970",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+340,"June 17th 2020, 13:29:51.969",      Authorization was successful.,SupportOnlineSecureUrlApi,info,,,      Authorization was successful.
+341,"June 17th 2020, 13:29:51.968","""",SupportOnlineSecureUrlApi,info,,,""""
+342,"June 17th 2020, 13:29:51.968",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1],,
+343,"June 17th 2020, 13:29:51.967",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+344,"June 17th 2020, 13:29:51.966",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+345,"June 17th 2020, 13:29:51.966",      Request starting HTTP/1.1 POST http://SupportOnlineSecureUrlApi.ausvpc.pcf.dell.com/api/secureurl application/json 145,SupportOnlineSecureUrlApi,info,,,      Request starting HTTP/1.1 POST http://SupportOnlineSecureUrlApi.ausvpc.pcf.dell.com/api/secureurl application/json 145
+346,"June 17th 2020, 13:29:50.942","""187.52.112.191,",soitrp,info,,187.52.112.191,
+347,"June 17th 2020, 13:29:50.891","""111.206.221.41,",soitrp,info,,111.206.221.41,
+348,"June 17th 2020, 13:29:50.889","""93.135.20.205,",soitrp,info,,93.135.20.205,
+349,"June 17th 2020, 13:29:50.888","""89.210.210.139,",soitrp,info,,89.210.210.139,
+350,"June 17th 2020, 13:29:50.872",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+351,"June 17th 2020, 13:29:50.855",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+352,"June 17th 2020, 13:29:50.785","""",Support-Client,info,,,""""
+355,"June 17th 2020, 13:29:50.640","""",Support-Client,info,,,""""
+356,"June 17th 2020, 13:29:50.637","""",Support-Client,info,,,""""
+358,"June 17th 2020, 13:29:50.604","""",Support-Client,info,,,""""
+360,"June 17th 2020, 13:29:50.601","""",Support-Client,info,,,""""
+362,"June 17th 2020, 13:29:50.598","""",Support-Client,info,,,""""
+363,"June 17th 2020, 13:29:50.598","""",Support-Client,info,,,""""
+366,"June 17th 2020, 13:29:50.596","""",Support-Client,info,,,""""
+367,"June 17th 2020, 13:29:50.480","""104.129.196.198,",soitrp,info,,104.129.196.198,
+368,"June 17th 2020, 13:29:50.398","""41.250.4.199,",soitrp,info,,41.250.4.199,
+369,"June 17th 2020, 13:29:50.396","""177.192.81.210,",soitrp,info,,177.192.81.210,
+370,"June 17th 2020, 13:29:50.390",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],support-emc-contents-api,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+371,"June 17th 2020, 13:29:50.312","""",Support-Client,info,,,""""
+373,"June 17th 2020, 13:29:50.177","""40.128.119.0,",soitrp,info,,40.128.119.0,
+374,"June 17th 2020, 13:29:50.175","""10.135.197.215,",soitrp,info,,10.135.197.215,
+375,"June 17th 2020, 13:29:50.175","""",Support-Client,info,,,""""
+377,"June 17th 2020, 13:29:50.120",      Request finished in 0.7879ms 200 application/json; charset=utf-8,SupportOnlineSecureUrlApi,info,,,      Request finished in 0.7879ms 200 application/json; charset=utf-8
+378,"June 17th 2020, 13:29:50.120",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+379,"June 17th 2020, 13:29:50.118","      Executing ObjectResult, writing value of type 'System.String'.",SupportOnlineSecureUrlApi,info,,,"      Executing ObjectResult, writing value of type 'System.String'."
+380,"June 17th 2020, 13:29:50.118",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+381,"June 17th 2020, 13:29:50.118",      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.404ms,SupportOnlineSecureUrlApi,info,,,      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.404ms
+382,"June 17th 2020, 13:29:50.117",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],,
+383,"June 17th 2020, 13:29:50.117",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+384,"June 17th 2020, 13:29:50.117",      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid,SupportOnlineSecureUrlApi,info,,,      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid
+385,"June 17th 2020, 13:29:50.117","      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.001ms.",SupportOnlineSecureUrlApi,info,,,"      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.001ms."
+386,"June 17th 2020, 13:29:50.117",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+387,"June 17th 2020, 13:29:50.112","""",SupportOnlineSecureUrlApi,info,,,""""
+388,"June 17th 2020, 13:29:50.110",      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  ,SupportOnlineSecureUrlApi,info,,,      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  
+389,"June 17th 2020, 13:29:50.110",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+390,"June 17th 2020, 13:29:50.110",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+391,"June 17th 2020, 13:29:50.101",      Request finished in 1.2567ms 200 application/json; charset=utf-8,SupportOnlineSecureUrlApi,info,,,      Request finished in 1.2567ms 200 application/json; charset=utf-8
+392,"June 17th 2020, 13:29:50.100",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+393,"June 17th 2020, 13:29:50.099",      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.7274ms,SupportOnlineSecureUrlApi,info,,,      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.7274ms
+394,"June 17th 2020, 13:29:50.099",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+395,"June 17th 2020, 13:29:50.098","      Executing ObjectResult, writing value of type 'System.String'.",SupportOnlineSecureUrlApi,info,,,"      Executing ObjectResult, writing value of type 'System.String'."
+396,"June 17th 2020, 13:29:50.098",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],,
+397,"June 17th 2020, 13:29:50.096",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+398,"June 17th 2020, 13:29:50.096",      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  ,SupportOnlineSecureUrlApi,info,,,      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  
+399,"June 17th 2020, 13:29:50.096","      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0044ms.",SupportOnlineSecureUrlApi,info,,,"      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0044ms."
+400,"June 17th 2020, 13:29:50.096","""",SupportOnlineSecureUrlApi,info,,,""""
+401,"June 17th 2020, 13:29:50.096",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+402,"June 17th 2020, 13:29:50.096",      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid,SupportOnlineSecureUrlApi,info,,,      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid
+403,"June 17th 2020, 13:29:50.096",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+404,"June 17th 2020, 13:29:50.096",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+405,"June 17th 2020, 13:29:50.090","""47.156.157.201,",soitrp,info,,47.156.157.201,
+406,"June 17th 2020, 13:29:50.090","""128.147.28.77,",soitrp,info,,128.147.28.77,
+407,"June 17th 2020, 13:29:49.654","""191.190.205.58,",soitrp,info,,191.190.205.58,
+408,"June 17th 2020, 13:29:49.654","""71.88.46.112,",soitrp,info,,71.88.46.112,
+409,"June 17th 2020, 13:29:49.654","""24.106.49.50,",soitrp,info,,24.106.49.50,
+410,"June 17th 2020, 13:29:49.654","""128.147.28.77,",soitrp,info,,128.147.28.77,
+411,"June 17th 2020, 13:29:49.619","""205.228.82.172,",soitrp,info,,205.228.82.172,
+412,"June 17th 2020, 13:29:49.604","""",Support-Client,info,,,""""
+414,"June 17th 2020, 13:29:48.536",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+415,"June 17th 2020, 13:29:48.536","[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]",sba-api-gateway-prod-13320515,info,,,"[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]"
+416,"June 17th 2020, 13:29:48.536",userIds           1110959139,sba-api-gateway-prod-13320515,info,,,userIds           1110959139
+417,"June 17th 2020, 13:29:48.533","""2020-06-17",sba-api-gateway-prod-13320515,info,,,"""2020-06-17"
+418,"June 17th 2020, 13:29:48.462","""199.216.68.2,",soitrp,info,,199.216.68.2,
+419,"June 17th 2020, 13:29:48.462","""54.84.126.201,",soitrp,info,,54.84.126.201,
+420,"June 17th 2020, 13:29:48.462",      Request finished in 0.6168ms 200 application/json; charset=utf-8,SupportOnlineSecureUrlApi,info,,,      Request finished in 0.6168ms 200 application/json; charset=utf-8
+421,"June 17th 2020, 13:29:48.460",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+422,"June 17th 2020, 13:29:48.459","      Executing ObjectResult, writing value of type 'System.String'.",SupportOnlineSecureUrlApi,info,,,"      Executing ObjectResult, writing value of type 'System.String'."
+423,"June 17th 2020, 13:29:48.459",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+424,"June 17th 2020, 13:29:48.459",      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.2461ms,SupportOnlineSecureUrlApi,info,,,      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.2461ms
+425,"June 17th 2020, 13:29:48.454",      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid,SupportOnlineSecureUrlApi,info,,,      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid
+426,"June 17th 2020, 13:29:48.454","      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0013ms.",SupportOnlineSecureUrlApi,info,,,"      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0013ms."
+427,"June 17th 2020, 13:29:48.454",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+428,"June 17th 2020, 13:29:48.454",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+429,"June 17th 2020, 13:29:48.454","""",SupportOnlineSecureUrlApi,info,,,""""
+430,"June 17th 2020, 13:29:48.454",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],,
+431,"June 17th 2020, 13:29:48.446",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+432,"June 17th 2020, 13:29:48.446",      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  ,SupportOnlineSecureUrlApi,info,,,      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  
+433,"June 17th 2020, 13:29:48.343",      Request finished in 0.7561ms 200 application/json; charset=utf-8,SupportOnlineSecureUrlApi,info,,,      Request finished in 0.7561ms 200 application/json; charset=utf-8
+434,"June 17th 2020, 13:29:48.343",      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.2755ms,SupportOnlineSecureUrlApi,info,,,      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.2755ms
+435,"June 17th 2020, 13:29:48.343",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+436,"June 17th 2020, 13:29:48.343",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+437,"June 17th 2020, 13:29:48.342",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],,
+438,"June 17th 2020, 13:29:48.342","      Executing ObjectResult, writing value of type 'System.String'.",SupportOnlineSecureUrlApi,info,,,"      Executing ObjectResult, writing value of type 'System.String'."
+439,"June 17th 2020, 13:29:48.337",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+440,"June 17th 2020, 13:29:48.337",      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid,SupportOnlineSecureUrlApi,info,,,      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid
+441,"June 17th 2020, 13:29:48.337","      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0013ms.",SupportOnlineSecureUrlApi,info,,,"      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0013ms."
+442,"June 17th 2020, 13:29:48.337",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+443,"June 17th 2020, 13:29:48.336","""",SupportOnlineSecureUrlApi,info,,,""""
+444,"June 17th 2020, 13:29:48.336",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+445,"June 17th 2020, 13:29:48.335",      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  ,SupportOnlineSecureUrlApi,info,,,      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  
+446,"June 17th 2020, 13:29:48.323",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Services.Online.Diagnostic.Common.Adapter.OdeLogger[10107],diagnosticapi,info, Dell.Services.Online.Diagnostic.Common.Adapter.OdeLogger[10107],,
+447,"June 17th 2020, 13:29:48.323","       message-data-start => SaveDiagnosticResult Async , -corId=> customstr101=d9722924-5610-4077-52cc-899cb9a3f4bd , customstr102=  message-data-end => ",diagnosticapi,info,,,"       message-data-start => SaveDiagnosticResult Async , -corId=> customstr101=d9722924-5610-4077-52cc-899cb9a3f4bd , customstr102=  message-data-end => "
+448,"June 17th 2020, 13:29:48.292",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+450,"June 17th 2020, 13:29:48.179","""",Support-Client,info,,,""""
+452,"June 17th 2020, 13:29:48.168","[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]",sba-api-gateway-prod-13320515,info,,,"[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]"
+453,"June 17th 2020, 13:29:48.134","""174.253.8.172,",soitrp,info,,174.253.8.172,
+454,"June 17th 2020, 13:29:48.125",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Incidents.Search.Core.Services.SupportHistory.CaseJournalService[0],incident-searchapi,info, Dell.SupportOnline.Incidents.Search.Core.Services.SupportHistory.CaseJournalService[0],,
+458,"June 17th 2020, 13:29:48.117","""",Support-Client,info,,,""""
+459,"June 17th 2020, 13:29:48.117","""",Support-Client,info,,,""""
+460,"June 17th 2020, 13:29:48.117","""",Support-Client,info,,,""""
+461,"June 17th 2020, 13:29:48.116","""",Support-Client,info,,,""""
+463,"June 17th 2020, 13:29:48.116","""",Support-Client,info,,,""""
+465,"June 17th 2020, 13:29:48.116","""",Support-Client,info,,,""""
+466,"June 17th 2020, 13:29:48.092","""128.147.28.77,",soitrp,info,,128.147.28.77,
+468,"June 17th 2020, 13:29:48.047","[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]",sba-api-gateway-prod-13320515,info,,,"[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]"
+469,"June 17th 2020, 13:29:48.047","""2020-06-17",sba-api-gateway-prod-13320515,info,,,"""2020-06-17"
+470,"June 17th 2020, 13:29:48.044",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.ActionStrategy.StrategySelector[0],guidedPath-ux-prod,info, Dell.Identity.WebModule.Core.ActionStrategy.StrategySelector[0],,
+471,"June 17th 2020, 13:29:48.044",      CookieDropActionStrategy selected,guidedPath-ux-prod,info,,,      CookieDropActionStrategy selected
+472,"June 17th 2020, 13:29:48.038",      CookieDrop selected by module,guidedPath-ux-prod,info,,,      CookieDrop selected by module
+473,"June 17th 2020, 13:29:48.037",      Dais-S is not present,guidedPath-ux-prod,info,,,      Dais-S is not present
+474,"June 17th 2020, 13:29:48.037",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],guidedPath-ux-prod,info, Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],,
+475,"June 17th 2020, 13:29:48.037",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],guidedPath-ux-prod,info, Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],,
+476,"June 17th 2020, 13:29:48.036",      @@@ClientSecurityContextHandler.ProcessRequest,guidedPath-ux-prod,info,,,      @@@ClientSecurityContextHandler.ProcessRequest
+477,"June 17th 2020, 13:29:48.036",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],guidedPath-ux-prod,info, Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],,
+478,"June 17th 2020, 13:29:48.036",      Clear Session,guidedPath-ux-prod,info,,,      Clear Session
+479,"June 17th 2020, 13:29:48.035",      CoreCookieDropActionStrategy selected,guidedPath-ux-prod,info,,,      CoreCookieDropActionStrategy selected
+480,"June 17th 2020, 13:29:48.035",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Business.ActionStrategy.CookieDropStrategy[0],guidedPath-ux-prod,info, Dell.Identity.WebModule.Core.Business.ActionStrategy.CookieDropStrategy[0],,
+481,"June 17th 2020, 13:29:48.034",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Business.ActionStrategy.CoreStrategySelector[0],guidedPath-ux-prod,info, Dell.Identity.WebModule.Core.Business.ActionStrategy.CoreStrategySelector[0],,
+482,"June 17th 2020, 13:29:48.034",      CookieDrop:True,guidedPath-ux-prod,info,,,      CookieDrop:True
+483,"June 17th 2020, 13:29:48.033",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.ActionStrategy.CookieDropStrategy[0],guidedPath-ux-prod,info, Dell.Identity.WebModule.Core.ActionStrategy.CookieDropStrategy[0],,
+485,"June 17th 2020, 13:29:48.033",      No Valid Claims found in Header,guidedPath-ux-prod,info,,,      No Valid Claims found in Header
+486,"June 17th 2020, 13:29:48.032",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Cache.DistributedCacheProvider[0],drivers-ux,info, Dell.SupportOnline.Cache.DistributedCacheProvider[0],,
+487,"June 17th 2020, 13:29:48.032",      @@@PopulateUserIdentityFromHeaderHandler.ProcessRequest,guidedPath-ux-prod,info,,,      @@@PopulateUserIdentityFromHeaderHandler.ProcessRequest
+488,"June 17th 2020, 13:29:48.032",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],guidedPath-ux-prod,info, Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],,
+489,"June 17th 2020, 13:29:48.031",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],guidedPath-ux-prod,info, Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],,
+490,"June 17th 2020, 13:29:48.030",      @@@Chain.Authenticate,guidedPath-ux-prod,info,,,      @@@Chain.Authenticate
+491,"June 17th 2020, 13:29:48.029",      @@@DaisAuthenticationMiddleware.Invoke,guidedPath-ux-prod,info,,,      @@@DaisAuthenticationMiddleware.Invoke
+492,"June 17th 2020, 13:29:48.029",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Utilities.Chain[0],guidedPath-ux-prod,info, Dell.Identity.WebModule.Core.Utilities.Chain[0],,
+493,"June 17th 2020, 13:29:47.982","""",Support-Client,info,,,""""
+496,"June 17th 2020, 13:29:47.979","""",Support-Client,info,,,""""
+498,"June 17th 2020, 13:29:47.969","""",Support-Client,info,,,""""
+500,"June 17th 2020, 13:29:47.956","""",Support-Client,info,,,""""
+502,"June 17th 2020, 13:29:47.956","""",Support-Client,info,,,""""
+504,"June 17th 2020, 13:29:47.889","""173.12.241.45,",soitrp,info,,173.12.241.45,
+506,"June 17th 2020, 13:29:47.825","""153.90.244.33,",soitrp,info,,153.90.244.33,
+507,"June 17th 2020, 13:29:47.824","""216.56.242.226,",soitrp,info,,216.56.242.226,
+508,"June 17th 2020, 13:29:47.824","""72.229.98.76,",soitrp,info,,72.229.98.76,
+510,"June 17th 2020, 13:29:47.776","""",Support-Client,info,,,""""
+511,"June 17th 2020, 13:29:47.776","""",Support-Client,info,,,""""
+514,"June 17th 2020, 13:29:47.773","""",Support-Client,info,,,""""
+516,"June 17th 2020, 13:29:47.771","""",Support-Client,info,,,""""
+517,"June 17th 2020, 13:29:47.771","""",Support-Client,info,,,""""
+519,"June 17th 2020, 13:29:47.771","""",Support-Client,info,,,""""
+521,"June 17th 2020, 13:29:47.702","""",Support-Client,info,,,""""
+522,"June 17th 2020, 13:29:47.702","""",Support-Client,info,,,""""
+524,"June 17th 2020, 13:29:47.684","""",Support-Client,info,,,""""
+526,"June 17th 2020, 13:29:47.674","""",Support-Client,info,,,""""
+528,"June 17th 2020, 13:29:47.641","""10.135.197.215,",soitrp,info,,10.135.197.215,
+529,"June 17th 2020, 13:29:47.624","""",Support-Client,info,,,""""
+531,"June 17th 2020, 13:29:47.619","""201.48.221.200,",soitrp,info,,201.48.221.200,
+532,"June 17th 2020, 13:29:47.619","""182.232.56.221,",soitrp,info,,182.232.56.221,
+533,"June 17th 2020, 13:29:47.619","""149.255.214.3,",soitrp,info,,149.255.214.3,
+534,"June 17th 2020, 13:29:47.617","""",Support-Client,info,,,""""
+537,"June 17th 2020, 13:29:47.584","""",Support-Client,info,,,""""
+539,"June 17th 2020, 13:29:47.581","""",Support-Client,info,,,""""
+540,"June 17th 2020, 13:29:47.500","""10.134.203.193,",soitrp,info,,10.134.203.193,
+541,"June 17th 2020, 13:29:47.499","""137.69.117.201,",soitrp,info,,137.69.117.201,
+542,"June 17th 2020, 13:29:47.461","""103.7.61.162,",soitrp,info,,103.7.61.162,
+543,"June 17th 2020, 13:29:47.461","""190.237.162.144,",soitrp,info,,190.237.162.144,
+544,"June 17th 2020, 13:29:47.387","""168.247.5.2,",soitrp,info,,168.247.5.2,
+547,"June 17th 2020, 13:29:47.307","""",Support-Client,info,,,""""
+548,"June 17th 2020, 13:29:47.306","""",Support-Client,info,,,""""
+549,"June 17th 2020, 13:29:46.295","""45.62.179.84,",soitrp,info,,45.62.179.84,
+550,"June 17th 2020, 13:29:46.295","""172.88.233.32,",soitrp,info,,172.88.233.32,
+553,"June 17th 2020, 13:29:46.222","""",Support-Client,info,,,""""
+556,"June 17th 2020, 13:29:46.222","""",Support-Client,info,,,""""
+557,"June 17th 2020, 13:29:46.222","""",Support-Client,info,,,""""
+558,"June 17th 2020, 13:29:46.221","""206.47.125.98,",soitrp,info,,206.47.125.98,
+559,"June 17th 2020, 13:29:46.219","""",Support-Client,info,,,""""
+560,"June 17th 2020, 13:29:46.218","""",Support-Client,info,,,""""
+562,"June 17th 2020, 13:29:46.218","""",Support-Client,info,,,""""
+565,"June 17th 2020, 13:29:46.209","""10.134.203.193,",soitrp,info,,10.134.203.193,
+567,"June 17th 2020, 13:29:46.188","""187.52.112.191,",soitrp,info,,187.52.112.191,
+568,"June 17th 2020, 13:29:46.183","""103.41.27.23,",soitrp,info,,103.41.27.23,
+569,"June 17th 2020, 13:29:45.827","""64.125.46.186,",soitrp,info,,64.125.46.186,
+570,"June 17th 2020, 13:29:45.824","""202.179.91.154,",soitrp,info,,202.179.91.154,
+571,"June 17th 2020, 13:29:45.821","""88.34.175.98,",soitrp,info,,88.34.175.98,
+572,"June 17th 2020, 13:29:45.793","""172.21.73.242",staticcdn-prod,info,,,"""172.21.73.242"
+573,"June 17th 2020, 13:29:45.695","""147.148.57.150,",soitrp,info,,147.148.57.150,
+574,"June 17th 2020, 13:29:45.688","""41.250.4.199,",soitrp,info,,41.250.4.199,
+575,"June 17th 2020, 13:29:45.669",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+576,"June 17th 2020, 13:29:45.669",      Request finished in 0.6839ms 200 application/json; charset=utf-8,SupportOnlineSecureUrlApi,info,,,      Request finished in 0.6839ms 200 application/json; charset=utf-8
+577,"June 17th 2020, 13:29:45.666",      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.3286ms,SupportOnlineSecureUrlApi,info,,,      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.3286ms
+578,"June 17th 2020, 13:29:45.665",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+579,"June 17th 2020, 13:29:45.663","      Executing ObjectResult, writing value of type 'System.String'.",SupportOnlineSecureUrlApi,info,,,"      Executing ObjectResult, writing value of type 'System.String'."
+580,"June 17th 2020, 13:29:45.662",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+581,"June 17th 2020, 13:29:45.662",      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid,SupportOnlineSecureUrlApi,info,,,      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid
+582,"June 17th 2020, 13:29:45.662","      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0018ms.",SupportOnlineSecureUrlApi,info,,,"      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0018ms."
+583,"June 17th 2020, 13:29:45.662",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],,
+584,"June 17th 2020, 13:29:45.657","""",SupportOnlineSecureUrlApi,info,,,""""
+585,"June 17th 2020, 13:29:45.657",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+586,"June 17th 2020, 13:29:45.656","""",Support-Client,info,,,""""
+587,"June 17th 2020, 13:29:45.656",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+588,"June 17th 2020, 13:29:45.656",      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  ,SupportOnlineSecureUrlApi,info,,,      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  
+589,"June 17th 2020, 13:29:45.641",   at Dell.SupportOnline.Diagnostics.Runtime.DataAdapters.DiagnosticDataAdapter.InsertDiagnosticResultAsync(DiagnosticResultParams diagnosticResultParams) in /builds/services/esupport/diagnostics/UX/DiagnosticsWeb/src/Dell.SupportOnline.Diagnostics.Runtime/DataAdapters/DiagnosticDataAdapter.cs:line 274,support-ode-ux,info,,,   at Dell.SupportOnline.Diagnostics.Runtime.DataAdapters.DiagnosticDataAdapter.InsertDiagnosticResultAsync(DiagnosticResultParams diagnosticResultParams) in /builds/services/esupport/diagnostics/UX/DiagnosticsWeb/src/Dell.SupportOnline.Diagnostics.Runtime/DataAdapters/DiagnosticDataAdapter.cs:line 274
+590,"June 17th 2020, 13:29:45.641","""",support-ode-ux,info,,,""""
+591,"June 17th 2020, 13:29:45.641",System.Exception: API failedSystem.Net.Http.HttpConnection+HttpConnectionResponseContent,support-ode-ux,info,,,System.Exception: API failedSystem.Net.Http.HttpConnection+HttpConnectionResponseContent
+592,"June 17th 2020, 13:29:45.641","   at Dell.SupportOnline.Diagnostics.Runtime.APIUtility.IncidentsServiceHTTPClient.PostApiDataAsync[T](String url, Object request, T response, NameValueCollection headerCollection) in /builds/services/esupport/diagnostics/UX/DiagnosticsWeb/src/Dell.SupportOnline.Diagnostics.Runtime/APIUtility/IncidentsServiceHTTPClient.cs:line 77",support-ode-ux,info,,,"   at Dell.SupportOnline.Diagnostics.Runtime.APIUtility.IncidentsServiceHTTPClient.PostApiDataAsync[T](String url, Object request, T response, NameValueCollection headerCollection) in /builds/services/esupport/diagnostics/UX/DiagnosticsWeb/src/Dell.SupportOnline.Diagnostics.Runtime/APIUtility/IncidentsServiceHTTPClient.cs:line 77"
+593,"June 17th 2020, 13:29:45.636",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Diagnostics.Runtime.DataAdapters.DiagnosticDataAdapter[10118],support-ode-ux,info, Dell.SupportOnline.Diagnostics.Runtime.DataAdapters.DiagnosticDataAdapter[10118],,
+594,"June 17th 2020, 13:29:45.610","""168.247.5.2,",soitrp,info,,168.247.5.2,
+595,"June 17th 2020, 13:29:45.610","""212.180.208.244,",soitrp,info,,212.180.208.244,
+596,"June 17th 2020, 13:29:45.545","""157.55.39.206,",soitrp,info,,157.55.39.206,
+597,"June 17th 2020, 13:29:45.531","""103.51.128.20,",soitrp,info,,103.51.128.20,
+598,"June 17th 2020, 13:29:45.520","""35.187.86.35,",soitrp,info,,35.187.86.35,
+599,"June 17th 2020, 13:29:45.494",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Support.Product.Search.Api.Controllers.CatalogController[0],ProductSelectorApi,info, Dell.Support.Product.Search.Api.Controllers.CatalogController[0],,
+602,"June 17th 2020, 13:29:45.490",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Support.Product.Search.Api.Controllers.CatalogController[0],ProductSelectorApi,info, Dell.Support.Product.Search.Api.Controllers.CatalogController[0],,
+604,"June 17th 2020, 13:29:45.471","""2020-06-17",sba-api-gateway-prod-13320515,info,,,"""2020-06-17"
+605,"June 17th 2020, 13:29:45.445","""176.59.40.25,",soitrp,info,,176.59.40.25,
+606,"June 17th 2020, 13:29:45.445","""12.216.54.122,",soitrp,info,,12.216.54.122,
+607,"June 17th 2020, 13:29:45.422","""39.50.57.110,",soitrp,info,,39.50.57.110,
+608,"June 17th 2020, 13:29:45.422","""84.141.26.87,",soitrp,info,,84.141.26.87,
+609,"June 17th 2020, 13:29:45.408",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Support.Product.Search.Api.Controllers.CatalogController[0],ProductSelectorApi,info, Dell.Support.Product.Search.Api.Controllers.CatalogController[0],,
+611,"June 17th 2020, 13:29:45.406","""177.125.81.26,",soitrp,info,,177.125.81.26,
+612,"June 17th 2020, 13:29:45.365","""153.44.2.100,",soitrp,info,,153.44.2.100,
+613,"June 17th 2020, 13:29:45.365","""178.155.5.99,",soitrp,info,,178.155.5.99,
+614,"June 17th 2020, 13:29:45.364","""66.249.79.121,",soitrp,info,,66.249.79.121,
+617,"June 17th 2020, 13:29:45.328","""",Support-Client,info,,,""""
+618,"June 17th 2020, 13:29:45.313","""41.250.4.199,",soitrp,info,,41.250.4.199,
+619,"June 17th 2020, 13:29:45.313","""182.232.56.221,",soitrp,info,,182.232.56.221,
+620,"June 17th 2020, 13:29:45.283","""137.69.117.202,",soitrp,info,,137.69.117.202,
+621,"June 17th 2020, 13:29:45.283","""79.217.20.55,",soitrp,info,,79.217.20.55,
+622,"June 17th 2020, 13:29:45.280","""184.90.252.50,",soitrp,info,,184.90.252.50,
+623,"June 17th 2020, 13:29:45.156","""181.73.236.97,",soitrp,info,,181.73.236.97,
+624,"June 17th 2020, 13:29:45.123","""36.101.184.61,",soitrp,info,,36.101.184.61,
+625,"June 17th 2020, 13:29:45.121","""123.126.113.158,",soitrp,info,,123.126.113.158,
+626,"June 17th 2020, 13:29:45.101","""174.253.8.172,",soitrp,info,,174.253.8.172,
+627,"June 17th 2020, 13:29:45.101","""75.137.98.75,",soitrp,info,,75.137.98.75,
+628,"June 17th 2020, 13:29:45.101","""173.12.241.45,",soitrp,info,,173.12.241.45,
+629,"June 17th 2020, 13:29:45.099","""177.83.46.169,",soitrp,info,,177.83.46.169,
+630,"June 17th 2020, 13:29:45.099","""109.18.4.149,",soitrp,info,,109.18.4.149,
+631,"June 17th 2020, 13:29:45.096","""",Support-Client,info,,,""""
+636,"June 17th 2020, 13:29:45.093","""",Support-Client,info,,,""""
+637,"June 17th 2020, 13:29:45.093","""",Support-Client,info,,,""""
+638,"June 17th 2020, 13:29:45.091","""",Support-Client,info,,,""""
+640,"June 17th 2020, 13:29:45.056","""67.248.137.17,",soitrp,info,,67.248.137.17,
+641,"June 17th 2020, 13:29:45.023","""173.12.241.45,",soitrp,info,,173.12.241.45,
+642,"June 17th 2020, 13:29:44.944","""157.44.85.111,",soitrp,info,,157.44.85.111,
+643,"June 17th 2020, 13:29:44.937","""173.235.91.166,",soitrp,info,,173.235.91.166,
+644,"June 17th 2020, 13:29:44.937","""10.107.102.186,",soitrp,info,,10.107.102.186,
+645,"June 17th 2020, 13:29:44.846","""83.135.206.106,",soitrp,info,,83.135.206.106,
+646,"June 17th 2020, 13:29:44.843","""10.107.102.186,",soitrp,info,,10.107.102.186,
+647,"June 17th 2020, 13:29:44.569",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+648,"June 17th 2020, 13:29:44.569",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+649,"June 17th 2020, 13:29:44.569",      Removed :PYACID - 279987949,SupportOnlinePurchasedproductsApi,info,,,      Removed :PYACID - 279987949
+650,"June 17th 2020, 13:29:44.569",      Removed :PTAID - ,SupportOnlinePurchasedproductsApi,info,,,      Removed :PTAID - 
+651,"June 17th 2020, 13:29:44.567",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+652,"June 17th 2020, 13:29:44.552",      Removed :aud - www.dell.com,SupportOnlinePurchasedproductsApi,info,,,      Removed :aud - www.dell.com
+653,"June 17th 2020, 13:29:44.548",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+654,"June 17th 2020, 13:29:44.545",      Removed :iss - http://www.dell.com/identity,SupportOnlinePurchasedproductsApi,info,,,      Removed :iss - http://www.dell.com/identity
+655,"June 17th 2020, 13:29:44.540",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+656,"June 17th 2020, 13:29:44.538",      Removed :iat - 1592418513,SupportOnlinePurchasedproductsApi,info,,,      Removed :iat - 1592418513
+657,"June 17th 2020, 13:29:44.533",      Removed :exp - 1592420313,SupportOnlinePurchasedproductsApi,info,,,      Removed :exp - 1592420313
+658,"June 17th 2020, 13:29:44.533",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+659,"June 17th 2020, 13:29:44.531",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+660,"June 17th 2020, 13:29:44.527",      Removed :nbf - 1592418513,SupportOnlinePurchasedproductsApi,info,,,      Removed :nbf - 1592418513
+661,"June 17th 2020, 13:29:44.524",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+662,"June 17th 2020, 13:29:44.519",      Removed :id - fc00bab8-4961-4863-9aad-583897c5de4d,SupportOnlinePurchasedproductsApi,info,,,      Removed :id - fc00bab8-4961-4863-9aad-583897c5de4d
+663,"June 17th 2020, 13:29:44.518",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+664,"June 17th 2020, 13:29:44.516",      Removed :ssid - 8b834c62-4781-4467-99fa-76e54b95c86f,SupportOnlinePurchasedproductsApi,info,,,      Removed :ssid - 8b834c62-4781-4467-99fa-76e54b95c86f
+665,"June 17th 2020, 13:29:44.511",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+666,"June 17th 2020, 13:29:44.510",      Removed :http://www.dell.com/identity/claims/profile/fingerprint - b306f9916fc18969c1937706d60d7641,SupportOnlinePurchasedproductsApi,info,,,      Removed :http://www.dell.com/identity/claims/profile/fingerprint - b306f9916fc18969c1937706d60d7641
+667,"June 17th 2020, 13:29:44.508",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+668,"June 17th 2020, 13:29:44.503",      Mapped : FH to FactorHistory,SupportOnlinePurchasedproductsApi,info,,,      Mapped : FH to FactorHistory
+669,"June 17th 2020, 13:29:44.501",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+670,"June 17th 2020, 13:29:44.495",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+671,"June 17th 2020, 13:29:44.495",      Mapped : PH to ProtocolHistory,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PH to ProtocolHistory
+672,"June 17th 2020, 13:29:44.494",      Mapped : CH to ConnectionHistory,SupportOnlinePurchasedproductsApi,info,,,      Mapped : CH to ConnectionHistory
+673,"June 17th 2020, 13:29:44.488",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+674,"June 17th 2020, 13:29:44.482",      Mapped : IH to IdpHistory,SupportOnlinePurchasedproductsApi,info,,,      Mapped : IH to IdpHistory
+675,"June 17th 2020, 13:29:44.476",      Mapped : PTMAID to http://www.dell.com/identity/claims/mastergroupaffinityid,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PTMAID to http://www.dell.com/identity/claims/mastergroupaffinityid
+676,"June 17th 2020, 13:29:44.476",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+677,"June 17th 2020, 13:29:44.476",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+678,"June 17th 2020, 13:29:44.470",      Mapped : PYUN to http://www.dell.com/identity/claims/profile/username,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYUN to http://www.dell.com/identity/claims/profile/username
+679,"June 17th 2020, 13:29:44.468",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+680,"June 17th 2020, 13:29:44.468",      Mapped : PYSID to http://www.dell.com/identity/claims/session/id,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYSID to http://www.dell.com/identity/claims/session/id
+681,"June 17th 2020, 13:29:44.464",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+682,"June 17th 2020, 13:29:44.464",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+683,"June 17th 2020, 13:29:44.464",      Mapped : PYIID to http://www.dell.com/identity/claims/session/instanceid,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYIID to http://www.dell.com/identity/claims/session/instanceid
+684,"June 17th 2020, 13:29:44.464",      Mapped : PYPID to http://www.dell.com/identity/claims/profile/id,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYPID to http://www.dell.com/identity/claims/profile/id
+685,"June 17th 2020, 13:29:44.451",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+686,"June 17th 2020, 13:29:44.450",      Mapped : PYLN to http://www.dell.com/identity/claims/profile/lastname,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYLN to http://www.dell.com/identity/claims/profile/lastname
+687,"June 17th 2020, 13:29:44.447",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+688,"June 17th 2020, 13:29:44.447",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+689,"June 17th 2020, 13:29:44.447",      Mapped : PYFN to http://www.dell.com/identity/claims/profile/firstname,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYFN to http://www.dell.com/identity/claims/profile/firstname
+690,"June 17th 2020, 13:29:44.444",      Mapped : PYEMVF to http://www.dell.com/identity/claims/profile/emailaddress/verified,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYEMVF to http://www.dell.com/identity/claims/profile/emailaddress/verified
+691,"June 17th 2020, 13:29:44.441",      Mapped : PYEID to http://www.dell.com/identity/claims/profile/emailaddress,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYEID to http://www.dell.com/identity/claims/profile/emailaddress
+692,"June 17th 2020, 13:29:44.441",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+693,"June 17th 2020, 13:29:44.439",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+694,"June 17th 2020, 13:29:44.438",      Mapped : PYATY to http://www.dell.com/identity/claims/authentication/type,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYATY to http://www.dell.com/identity/claims/authentication/type
+695,"June 17th 2020, 13:29:44.438",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+696,"June 17th 2020, 13:29:44.435",      Mapped : PYST to http://www.dell.com/identity/claims/authentication/status,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYST to http://www.dell.com/identity/claims/authentication/status
+697,"June 17th 2020, 13:29:44.432",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+698,"June 17th 2020, 13:29:44.428",      Mapped : PYSR to http://www.dell.com/identity/claims/authentication/source,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYSR to http://www.dell.com/identity/claims/authentication/source
+699,"June 17th 2020, 13:29:44.428",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+700,"June 17th 2020, 13:29:44.425",      Mapped : PYALTP to http://www.dell.com/identity/claims/account/aliastype,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYALTP to http://www.dell.com/identity/claims/account/aliastype
+701,"June 17th 2020, 13:29:44.420",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+702,"June 17th 2020, 13:29:44.420",      Mapped : PYALN to http://www.dell.com/identity/claims/account/aliasname,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYALN to http://www.dell.com/identity/claims/account/aliasname
+703,"June 17th 2020, 13:29:44.417",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+704,"June 17th 2020, 13:29:44.416",      Mapped : PYALID to http://www.dell.com/identity/claims/account/aliasid,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYALID to http://www.dell.com/identity/claims/account/aliasid
+705,"June 17th 2020, 13:29:44.412",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+706,"June 17th 2020, 13:29:44.410",      Mapped : PTAID to http://www.dell.com/identity/claims/affinityid,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PTAID to http://www.dell.com/identity/claims/affinityid
+707,"June 17th 2020, 13:29:44.405",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+708,"June 17th 2020, 13:29:44.403",      Mapped : PYACID to http://www.dell.com/identity/claims/accountid,SupportOnlinePurchasedproductsApi,info,,,      Mapped : PYACID to http://www.dell.com/identity/claims/accountid
+709,"June 17th 2020, 13:29:44.398",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+710,"June 17th 2020, 13:29:44.395",      Not Mapped: aud,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: aud
+711,"June 17th 2020, 13:29:44.394",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+712,"June 17th 2020, 13:29:44.382",      Not Mapped: iss,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: iss
+713,"June 17th 2020, 13:29:44.382",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+714,"June 17th 2020, 13:29:44.380",      Not Mapped: iat,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: iat
+715,"June 17th 2020, 13:29:44.376",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+716,"June 17th 2020, 13:29:44.375",      Not Mapped: exp,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: exp
+717,"June 17th 2020, 13:29:44.372",      Not Mapped: nbf,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: nbf
+718,"June 17th 2020, 13:29:44.372",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+719,"June 17th 2020, 13:29:44.366",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+720,"June 17th 2020, 13:29:44.363",      Not Mapped: id,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: id
+721,"June 17th 2020, 13:29:44.358",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+722,"June 17th 2020, 13:29:44.351",      Not Mapped: ssid,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: ssid
+723,"June 17th 2020, 13:29:44.348",      Not Mapped: http://www.dell.com/identity/claims/profile/fingerprint,SupportOnlinePurchasedproductsApi,info,,,      Not Mapped: http://www.dell.com/identity/claims/profile/fingerprint
+724,"June 17th 2020, 13:29:44.348",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+725,"June 17th 2020, 13:29:44.348",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+726,"June 17th 2020, 13:29:44.339",      shortnameenabled  : True and claims found,SupportOnlinePurchasedproductsApi,info,,,      shortnameenabled  : True and claims found
+727,"June 17th 2020, 13:29:44.339",      time difference:1,SupportOnlinePurchasedproductsApi,info,,,      time difference:1
+728,"June 17th 2020, 13:29:44.339",      cstTimeNow:6/17/20 1:29:39 PM,SupportOnlinePurchasedproductsApi,info,,,      cstTimeNow:6/17/20 1:29:39 PM
+729,"June 17th 2020, 13:29:44.339",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+730,"June 17th 2020, 13:29:44.339","""64.125.46.186,",soitrp,info,,64.125.46.186,
+731,"June 17th 2020, 13:29:44.339",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+732,"June 17th 2020, 13:29:44.339",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+734,"June 17th 2020, 13:29:44.326",      appCstTimeZoneDisplayName:Central Standard Time,SupportOnlinePurchasedproductsApi,info,,,      appCstTimeZoneDisplayName:Central Standard Time
+735,"June 17th 2020, 13:29:44.320",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+736,"June 17th 2020, 13:29:44.313",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+737,"June 17th 2020, 13:29:44.313","""",Support-Client,info,,,""""
+738,"June 17th 2020, 13:29:44.313",      appCstTimeZoneId from connection:America/Matamoros,SupportOnlinePurchasedproductsApi,info,,,      appCstTimeZoneId from connection:America/Matamoros
+740,"June 17th 2020, 13:29:44.311",      Parsed latdatetime:6/17/20 1:28:33 PM,SupportOnlinePurchasedproductsApi,info,,,      Parsed latdatetime:6/17/20 1:28:33 PM
+741,"June 17th 2020, 13:29:44.307",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Utilities.ClaimsHelper[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Utilities.ClaimsHelper[0],,
+742,"June 17th 2020, 13:29:44.307","""",Support-Client,info,,,""""
+743,"June 17th 2020, 13:29:44.306",      No Valid Claims found in Header,SupportOnlinePurchasedproductsApi,info,,,      No Valid Claims found in Header
+744,"June 17th 2020, 13:29:44.302",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],,
+745,"June 17th 2020, 13:29:44.300",      @@@PopulateUserIdentityFromHeaderHandler.ProcessRequest,SupportOnlinePurchasedproductsApi,info,,,      @@@PopulateUserIdentityFromHeaderHandler.ProcessRequest
+746,"June 17th 2020, 13:29:44.297",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],,
+747,"June 17th 2020, 13:29:44.296",      @@@Chain.Authenticate,SupportOnlinePurchasedproductsApi,info,,,      @@@Chain.Authenticate
+748,"June 17th 2020, 13:29:44.296",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Pipeline.PopulateUserIdentityFromHeaderHandler[0],,
+749,"June 17th 2020, 13:29:44.296",      @@@ClientSecurityContextHandler.ProcessRequest,SupportOnlinePurchasedproductsApi,info,,,      @@@ClientSecurityContextHandler.ProcessRequest
+750,"June 17th 2020, 13:29:44.287",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Utilities.Chain[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Utilities.Chain[0],,
+751,"June 17th 2020, 13:29:44.284",      @@@DaisAuthenticationMiddleware.Invoke,SupportOnlinePurchasedproductsApi,info,,,      @@@DaisAuthenticationMiddleware.Invoke
+752,"June 17th 2020, 13:29:44.249","""79.98.180.3,",soitrp,info,,79.98.180.3,
+753,"June 17th 2020, 13:29:44.236","""2020-06-17",sba-api-gateway-prod-13320515,info,,,"""2020-06-17"
+754,"June 17th 2020, 13:29:44.236","[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]",sba-api-gateway-prod-13320515,info,,,"[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]"
+755,"June 17th 2020, 13:29:44.230","""",accountmanagementux,info,,,""""
+756,"June 17th 2020, 13:29:44.224","""",accountmanagementux,info,,,""""
+757,"June 17th 2020, 13:29:44.221","[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]",sba-api-gateway-prod-13320515,info,,,"[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]"
+758,"June 17th 2020, 13:29:44.221",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Support.Common.Context.Sql.SqlVariableBaseRepository[12001],accountmanagementux,info, Dell.Support.Common.Context.Sql.SqlVariableBaseRepository[12001],,
+759,"June 17th 2020, 13:29:44.219","""",accountmanagementux,info,,,""""
+760,"June 17th 2020, 13:29:44.219","""2020-06-17",sba-api-gateway-prod-13320515,info,,,"""2020-06-17"
+761,"June 17th 2020, 13:29:44.214","""",accountmanagementux,info,,,""""
+762,"June 17th 2020, 13:29:44.209",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Common.Db.DbHelper[12001],accountmanagementux,info, Dell.SupportOnline.Common.Db.DbHelper[12001],,
+763,"June 17th 2020, 13:29:44.209","""",accountmanagementux,info,,,""""
+764,"June 17th 2020, 13:29:44.204","""",accountmanagementux,info,,,""""
+765,"June 17th 2020, 13:29:44.203",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Support.Common.Context.Sql.SqlVariableBaseRepository[12001],accountmanagementux,info, Dell.Support.Common.Context.Sql.SqlVariableBaseRepository[12001],,
+766,"June 17th 2020, 13:29:44.202","""",accountmanagementux,info,,,""""
+767,"June 17th 2020, 13:29:44.198","""",accountmanagementux,info,,,""""
+768,"June 17th 2020, 13:29:44.198","[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]",sba-api-gateway-prod-13320515,info,,,"[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]"
+769,"June 17th 2020, 13:29:44.193","""2020-06-17",sba-api-gateway-prod-13320515,info,,,"""2020-06-17"
+770,"June 17th 2020, 13:29:44.191",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Common.Db.DbHelper[12001],accountmanagementux,info, Dell.SupportOnline.Common.Db.DbHelper[12001],,
+771,"June 17th 2020, 13:29:44.187","""",accountmanagementux,info,,,""""
+772,"June 17th 2020, 13:29:44.186","""",accountmanagementux,info,,,""""
+773,"June 17th 2020, 13:29:44.182",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Support.Common.Context.Sql.SqlVariableBaseRepository[12001],accountmanagementux,info, Dell.Support.Common.Context.Sql.SqlVariableBaseRepository[12001],,
+774,"June 17th 2020, 13:29:44.179","""",accountmanagementux,info,,,""""
+775,"June 17th 2020, 13:29:44.177","""",accountmanagementux,info,,,""""
+777,"June 17th 2020, 13:29:43.704","""93.185.0.41,",soitrp,info,,93.185.0.41,
+778,"June 17th 2020, 13:29:43.704","""",Support-Client,info,,,""""
+780,"June 17th 2020, 13:29:43.704","""34.95.225.3,",soitrp,info,,34.95.225.3,
+781,"June 17th 2020, 13:29:43.699","""",Support-Client,info,,,""""
+783,"June 17th 2020, 13:29:43.699","""",Support-Client,info,,,""""
+784,"June 17th 2020, 13:29:43.694","""24.107.192.175,",soitrp,info,,24.107.192.175,
+785,"June 17th 2020, 13:29:43.588",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+786,"June 17th 2020, 13:29:43.562",      Request finished in 1.066ms 200 application/json; charset=utf-8,SupportOnlineSecureUrlApi,info,,,      Request finished in 1.066ms 200 application/json; charset=utf-8
+787,"June 17th 2020, 13:29:43.550",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+788,"June 17th 2020, 13:29:43.544",      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.5881ms,SupportOnlineSecureUrlApi,info,,,      Executed action Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) in 0.5881ms
+789,"June 17th 2020, 13:29:43.544","""216.77.95.60,",soitrp,info,,216.77.95.60,
+790,"June 17th 2020, 13:29:43.544",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+791,"June 17th 2020, 13:29:43.540","      Executing ObjectResult, writing value of type 'System.String'.",SupportOnlineSecureUrlApi,info,,,"      Executing ObjectResult, writing value of type 'System.String'."
+792,"June 17th 2020, 13:29:43.539","      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0017ms.",SupportOnlineSecureUrlApi,info,,,"      Executed action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0017ms."
+793,"June 17th 2020, 13:29:43.539",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],,
+794,"June 17th 2020, 13:29:43.533",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+795,"June 17th 2020, 13:29:43.532","""",SupportOnlineSecureUrlApi,info,,,""""
+796,"June 17th 2020, 13:29:43.532",      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid,SupportOnlineSecureUrlApi,info,,,      Executing action method Dell.SupportOnline.SecureUrl.Controllers.DefaultController.Index (Dell.SupportOnline.SecureUrl) - Validation state: Valid
+797,"June 17th 2020, 13:29:43.532",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+798,"June 17th 2020, 13:29:43.532",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+799,"June 17th 2020, 13:29:43.527",      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  ,SupportOnlineSecureUrlApi,info,,,      Request starting HTTP/1.1 GET http://supportonlinesecureurlapi.ausmsc01.pcf.dell.com/api/default/index  
+800,"June 17th 2020, 13:29:43.520",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Dell.Identity.WebModule.Core.Middlewares.DaisAuthenticationMiddleware[0],SupportOnlinePurchasedproductsApi,info, Dell.Identity.WebModule.Core.Middlewares.DaisAuthenticationMiddleware[0],,
+801,"June 17th 2020, 13:29:43.501","""65.183.176.34,",soitrp,info,,65.183.176.34,
+802,"June 17th 2020, 13:29:43.458","""217.224.52.40,",soitrp,info,,217.224.52.40,
+803,"June 17th 2020, 13:29:43.458","""206.125.176.67,",soitrp,info,,206.125.176.67,
+804,"June 17th 2020, 13:29:43.388","""206.125.176.67,",soitrp,info,,206.125.176.67,
+805,"June 17th 2020, 13:29:43.256","""",Support-Client,info,,,""""
+807,"June 17th 2020, 13:29:43.256","""",Support-Client,info,,,""""
+809,"June 17th 2020, 13:29:43.166","""66.249.79.3,",soitrp,info,,66.249.79.3,
+813,"June 17th 2020, 13:29:43.101","""",Support-Client,info,,,""""
+814,"June 17th 2020, 13:29:43.101","""",Support-Client,info,,,""""
+815,"June 17th 2020, 13:29:43.101","""",Support-Client,info,,,""""
+817,"June 17th 2020, 13:29:42.967","""",Support-Client,info,,,""""
+819,"June 17th 2020, 13:29:42.896","""10.134.203.193,",soitrp,info,,10.134.203.193,
+820,"June 17th 2020, 13:29:42.896","""64.125.46.186,",soitrp,info,,64.125.46.186,
+821,"June 17th 2020, 13:29:42.876","""128.200.61.244,",soitrp,info,,128.200.61.244,
+822,"June 17th 2020, 13:29:42.876","""111.202.103.87,",soitrp,info,,111.202.103.87,
+823,"June 17th 2020, 13:29:42.823","""212.180.208.244,",soitrp,info,,212.180.208.244,
+824,"June 17th 2020, 13:29:42.777","""172.20.135.243",staticcdn-prod,info,,,"""172.20.135.243"
+826,"June 17th 2020, 13:29:42.708",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Common.Db.DbHelper[12001],accountmanagementux,info, Dell.SupportOnline.Common.Db.DbHelper[12001],,
+827,"June 17th 2020, 13:29:42.678","""187.190.17.45,",soitrp,info,,187.190.17.45,
+829,"June 17th 2020, 13:29:42.631","""",Support-Client,info,,,""""
+830,"June 17th 2020, 13:29:42.625","""",Support-Client,info,,,""""
+832,"June 17th 2020, 13:29:42.608",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+833,"June 17th 2020, 13:29:42.567","""111.206.221.46,",soitrp,info,,111.206.221.46,
+834,"June 17th 2020, 13:29:42.567","""54.84.126.201,",soitrp,info,,54.84.126.201,
+835,"June 17th 2020, 13:29:42.567","""190.234.137.231,",soitrp,info,,190.234.137.231,
+836,"June 17th 2020, 13:29:42.567","""185.25.35.8,",soitrp,info,,185.25.35.8,
+837,"June 17th 2020, 13:29:42.566","""207.96.238.162,",soitrp,info,,207.96.238.162,
+838,"June 17th 2020, 13:29:42.539","""201.167.5.2,",soitrp,info,,201.167.5.2,
+839,"June 17th 2020, 13:29:42.520","""4.53.41.196,",soitrp,info,,4.53.41.196,
+841,"June 17th 2020, 13:29:42.502","""104.250.80.253,",soitrp,info,,104.250.80.253,
+842,"June 17th 2020, 13:29:42.502","""82.45.14.247,",soitrp,info,,82.45.14.247,
+843,"June 17th 2020, 13:29:42.501","""174.230.1.92,",soitrp,info,,174.230.1.92,
+844,"June 17th 2020, 13:29:42.499",      Request finished in 2.4426ms 200 application/json; charset=utf-8,SupportOnlineSecureUrlApi,info,,,      Request finished in 2.4426ms 200 application/json; charset=utf-8
+845,"June 17th 2020, 13:29:42.499",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+846,"June 17th 2020, 13:29:42.498",      Executed action Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) in 0.9187ms,SupportOnlineSecureUrlApi,info,,,      Executed action Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) in 0.9187ms
+847,"June 17th 2020, 13:29:42.498",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+848,"June 17th 2020, 13:29:42.497","      Executing ObjectResult, writing value of type 'Dell.SupportOnline.SecureUrl.Utilities.Envelope`1[[System.Collections.Generic.List`1[[Dell.SupportOnline.SecureUrl.Model.Response, Dell.SupportOnline.SecureUrl, Version=1.1.121.383, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.",SupportOnlineSecureUrlApi,info,,,"      Executing ObjectResult, writing value of type 'Dell.SupportOnline.SecureUrl.Utilities.Envelope`1[[System.Collections.Generic.List`1[[Dell.SupportOnline.SecureUrl.Model.Response, Dell.SupportOnline.SecureUrl, Version=1.1.121.383, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'."
+849,"June 17th 2020, 13:29:42.495",      Authorization was successful.,SupportOnlineSecureUrlApi,info,,,      Authorization was successful.
+850,"June 17th 2020, 13:29:42.495",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+851,"June 17th 2020, 13:29:42.495","""109.253.207.172,",soitrp,info,,109.253.207.172,
+852,"June 17th 2020, 13:29:42.495","""",SupportOnlineSecureUrlApi,info,,,""""
+853,"June 17th 2020, 13:29:42.495","      Executed action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1981ms.",SupportOnlineSecureUrlApi,info,,,"      Executed action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1981ms."
+854,"June 17th 2020, 13:29:42.495",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+855,"June 17th 2020, 13:29:42.495",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1],,
+856,"June 17th 2020, 13:29:42.495",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],,
+857,"June 17th 2020, 13:29:42.495",      Executing action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) with arguments (Dell.SupportOnline.SecureUrl.Model.SecureUrlRequest) - Validation state: Valid,SupportOnlineSecureUrlApi,info,,,      Executing action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) with arguments (Dell.SupportOnline.SecureUrl.Model.SecureUrlRequest) - Validation state: Valid
+858,"June 17th 2020, 13:29:42.494",      Request starting HTTP/1.1 POST http://SupportOnlineSecureUrlApi.ausvpc.pcf.dell.com/api/secureurl application/json 145,SupportOnlineSecureUrlApi,info,,,      Request starting HTTP/1.1 POST http://SupportOnlineSecureUrlApi.ausvpc.pcf.dell.com/api/secureurl application/json 145
+859,"June 17th 2020, 13:29:42.494",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+861,"June 17th 2020, 13:29:41.313","[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]",sba-api-gateway-prod-13320515,info,,,"[Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-Fetch-User, Storm-Homepage-Redirect, Responsive-Enabled, Responsive-Lwpbuilder, B3, Dell-Mobile-Bot, Dnt, Trans-Device-Info, X-Trans-Device-Info, Upgrade-Insecure-Requests, Via, X-Akamai-Config-Log-Detail]"
+862,"June 17th 2020, 13:29:41.262","""",Support-Client,info,,,""""
+865,"June 17th 2020, 13:29:41.255","""",Support-Client,info,,,""""
+866,"June 17th 2020, 13:29:41.254","""",Support-Client,info,,,""""
+868,"June 17th 2020, 13:29:41.253","""172.21.73.242",staticcdn-prod,info,,,"""172.21.73.242"
+869,"June 17th 2020, 13:29:41.253","""200.192.237.194,",soitrp,info,,200.192.237.194,
+870,"June 17th 2020, 13:29:41.253","""54.84.126.201,",soitrp,info,,54.84.126.201,
+871,"June 17th 2020, 13:29:41.230",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+872,"June 17th 2020, 13:29:41.220","""10.107.32.187,",soitrp,info,,10.107.32.187,
+873,"June 17th 2020, 13:29:41.219","""205.201.17.213,",soitrp,info,,205.201.17.213,
+874,"June 17th 2020, 13:29:41.217","""",Support-Client,info,,,""""
+875,"June 17th 2020, 13:29:41.192",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Incidents.Search.Core.Services.SupportHistory.CaseJournalService[0],incident-searchapi,info, Dell.SupportOnline.Incidents.Search.Core.Services.SupportHistory.CaseJournalService[0],,
+876,"June 17th 2020, 13:29:41.173",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Supportonline.Ips.Web.Framework.Infrastructure.IpsClientExtended[0],ProductSupport-UX,info, Dell.Supportonline.Ips.Web.Framework.Infrastructure.IpsClientExtended[0],,
+878,"June 17th 2020, 13:29:41.168","""83.4.27.222,",soitrp,info,,83.4.27.222,
+879,"June 17th 2020, 13:29:41.168",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[1],,
+880,"June 17th 2020, 13:29:41.098",      Request finished in 3862.9882ms 200 application/json; charset=utf-8,incidents-dellcasesapi,info,,,      Request finished in 3862.9882ms 200 application/json; charset=utf-8
+881,"June 17th 2020, 13:29:41.097",      Executed action Dell.SupportOnline.Incidents.DellCases.API.Controllers.EmcCaseController.CreateCase (Dell.SupportOnline.Incidents.DellCases.API) in 3861.7423ms,incidents-dellcasesapi,info,,,      Executed action Dell.SupportOnline.Incidents.DellCases.API.Controllers.EmcCaseController.CreateCase (Dell.SupportOnline.Incidents.DellCases.API) in 3861.7423ms
+882,"June 17th 2020, 13:29:41.097",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],incidents-dellcasesapi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+883,"June 17th 2020, 13:29:41.097","      Executing ObjectResult, writing value of type 'Dell.SupportOnline.Incidents.DellCases.API.Core.Models.EmcCase.EmcCaseResponse'.",incidents-dellcasesapi,info,,,"      Executing ObjectResult, writing value of type 'Dell.SupportOnline.Incidents.DellCases.API.Core.Models.EmcCase.EmcCaseResponse'."
+884,"June 17th 2020, 13:29:41.097",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],incidents-dellcasesapi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+885,"June 17th 2020, 13:29:41.096",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],incidents-dellcasesapi,info, Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],,
+886,"June 17th 2020, 13:29:41.096",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],incidents-dellcasesapi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+887,"June 17th 2020, 13:29:41.096","      Executed action method Dell.SupportOnline.Incidents.DellCases.API.Controllers.EmcCaseController.CreateCase (Dell.SupportOnline.Incidents.DellCases.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3860.3318ms.",incidents-dellcasesapi,info,,,"      Executed action method Dell.SupportOnline.Incidents.DellCases.API.Controllers.EmcCaseController.CreateCase (Dell.SupportOnline.Incidents.DellCases.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3860.3318ms."
+888,"June 17th 2020, 13:29:41.095",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: System.Net.Http.HttpClient.IApiClient.LogicalHandler[101],incidents-dellcasesapi,info, System.Net.Http.HttpClient.IApiClient.LogicalHandler[101],,
+889,"June 17th 2020, 13:29:41.095",      End processing HTTP request after 3859.4063ms - OK,incidents-dellcasesapi,info,,,      End processing HTTP request after 3859.4063ms - OK
+890,"June 17th 2020, 13:29:41.094",      Received HTTP response after 3859.3156ms - OK,incidents-dellcasesapi,info,,,      Received HTTP response after 3859.3156ms - OK
+891,"June 17th 2020, 13:29:41.094",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: System.Net.Http.HttpClient.IApiClient.ClientHandler[101],incidents-dellcasesapi,info, System.Net.Http.HttpClient.IApiClient.ClientHandler[101],,
+892,"June 17th 2020, 13:29:41.059","""204.88.31.202,",soitrp,info,,204.88.31.202,
+893,"June 17th 2020, 13:29:41.032","""201.245.240.69,",soitrp,info,,201.245.240.69,
+894,"June 17th 2020, 13:29:41.031","""66.249.68.21,",soitrp,info,,66.249.68.21,
+895,"June 17th 2020, 13:29:41.030","""132.157.131.110,",soitrp,info,,132.157.131.110,
+896,"June 17th 2020, 13:29:41.021",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+897,"June 17th 2020, 13:29:41.021",      Request finished in 2.3019ms 200 application/json; charset=utf-8,SupportOnlineSecureUrlApi,info,,,      Request finished in 2.3019ms 200 application/json; charset=utf-8
+898,"June 17th 2020, 13:29:41.021",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Hosting.Internal.WebHost[2],,
+899,"June 17th 2020, 13:29:41.021","      Executing ObjectResult, writing value of type 'Dell.SupportOnline.SecureUrl.Utilities.Envelope`1[[System.Collections.Generic.List`1[[Dell.SupportOnline.SecureUrl.Model.Response, Dell.SupportOnline.SecureUrl, Version=1.1.121.383, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.",SupportOnlineSecureUrlApi,info,,,"      Executing ObjectResult, writing value of type 'Dell.SupportOnline.SecureUrl.Utilities.Envelope`1[[System.Collections.Generic.List`1[[Dell.SupportOnline.SecureUrl.Model.Response, Dell.SupportOnline.SecureUrl, Version=1.1.121.383, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'."
+900,"June 17th 2020, 13:29:41.021",      Executed action Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) in 0.8345ms,SupportOnlineSecureUrlApi,info,,,      Executed action Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) in 0.8345ms
+901,"June 17th 2020, 13:29:41.019","      Executed action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.2593ms.",SupportOnlineSecureUrlApi,info,,,"      Executed action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.2593ms."
+902,"June 17th 2020, 13:29:41.019",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1],,
+903,"June 17th 2020, 13:29:41.014",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2],,
+904,"June 17th 2020, 13:29:41.013",      Executing action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) with arguments (Dell.SupportOnline.SecureUrl.Model.SecureUrlRequest) - Validation state: Valid,SupportOnlineSecureUrlApi,info,,,      Executing action method Dell.SupportOnline.SecureUrl.Controllers.SecureUrlController.Post (Dell.SupportOnline.SecureUrl) with arguments (Dell.SupportOnline.SecureUrl.Model.SecureUrlRequest) - Validation state: Valid
+905,"June 17th 2020, 13:29:41.012",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+906,"June 17th 2020, 13:29:41.012","""",diagnosticapi,info,,,""""
+907,"June 17th 2020, 13:29:41.012",      Authorization was successful.,SupportOnlineSecureUrlApi,info,,,      Authorization was successful.
+908,"June 17th 2020, 13:29:41.011",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1],,
+909,"June 17th 2020, 13:29:41.011","""",SupportOnlineSecureUrlApi,info,,,""""
+910,"June 17th 2020, 13:29:41.011",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Services.Online.Diagnostic.Common.Adapter.OdeLogger[10107],diagnosticapi,info, Dell.Services.Online.Diagnostic.Common.Adapter.OdeLogger[10107],,
+911,"June 17th 2020, 13:29:41.011",      Request starting HTTP/1.1 POST http://SupportOnlineSecureUrlApi.ausvpc.pcf.dell.com/api/secureurl application/json 145,SupportOnlineSecureUrlApi,info,,,      Request starting HTTP/1.1 POST http://SupportOnlineSecureUrlApi.ausvpc.pcf.dell.com/api/secureurl application/json 145
+912,"June 17th 2020, 13:29:41.011",\x1b[40m\x1b[32minfo\x1b[39m\x1b[22m\x1b[49m: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1],SupportOnlineSecureUrlApi,info, Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1],,
+913,"June 17th 2020, 13:29:41.011","""",diagnosticapi,info,,,""""
+914,"June 17th 2020, 13:29:41.011",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Services.Online.Diagnostic.Common.Adapter.OdeLogger[10107],diagnosticapi,info, Dell.Services.Online.Diagnostic.Common.Adapter.OdeLogger[10107],,
+915,"June 17th 2020, 13:29:41.006","""",Support-Client,info,,,""""
+917,"June 17th 2020, 13:29:41.000","""",Support-Client,info,,,""""
+919,"June 17th 2020, 13:29:40.917","""",Support-Client,info,,,""""
+921,"June 17th 2020, 13:29:40.914","""",Support-Client,info,,,""""
+923,"June 17th 2020, 13:29:40.913","""",Support-Client,info,,,""""
+926,"June 17th 2020, 13:29:40.906","""",Support-Client,info,,,""""
+927,"June 17th 2020, 13:29:40.902","""",Support-Client,info,,,""""
+929,"June 17th 2020, 13:29:40.901","""",Support-Client,info,,,""""
+931,"June 17th 2020, 13:29:40.870","""177.203.161.21,",soitrp,info,,177.203.161.21,
+932,"June 17th 2020, 13:29:40.868","""10.134.204.61,",soitrp,info,,10.134.204.61,
+933,"June 17th 2020, 13:29:40.859","""45.239.150.19,",soitrp,info,,45.239.150.19,
+934,"June 17th 2020, 13:29:40.840","""",Support-Client,info,,,""""
+936,"June 17th 2020, 13:29:40.839","""",Support-Client,info,,,""""
+938,"June 17th 2020, 13:29:40.790",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Support.Product.Search.Api.Controllers.CatalogController[0],ProductSelectorApi,info, Dell.Support.Product.Search.Api.Controllers.CatalogController[0],,
+940,"June 17th 2020, 13:29:40.715","""",Support-Client,info,,,""""
+943,"June 17th 2020, 13:29:40.703","""54.84.126.201,",soitrp,info,,54.84.126.201,
+944,"June 17th 2020, 13:29:40.703","""178.154.200.195,",soitrp,info,,178.154.200.195,
+945,"June 17th 2020, 13:29:40.703","""",Support-Client,info,,,""""
+946,"June 17th 2020, 13:29:40.654","""199.1.133.54,",soitrp,info,,199.1.133.54,
+947,"June 17th 2020, 13:29:40.557","""",Support-Client,info,,,""""
+949,"June 17th 2020, 13:29:40.529","""10.107.32.187,",soitrp,info,,10.107.32.187,
+950,"June 17th 2020, 13:29:40.529","""198.214.50.125,",soitrp,info,,198.214.50.125,
+951,"June 17th 2020, 13:29:40.529","""216.56.242.226,",soitrp,info,,216.56.242.226,
+953,"June 17th 2020, 13:29:40.499",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Cache.DistributedCacheProvider[0],drivers-ux,info, Dell.SupportOnline.Cache.DistributedCacheProvider[0],,
+954,"June 17th 2020, 13:29:40.489",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.SupportOnline.Cache.DistributedCacheProvider[0],drivers-ux,info, Dell.SupportOnline.Cache.DistributedCacheProvider[0],,
+955,"June 17th 2020, 13:29:40.416","""104.189.159.234,",soitrp,info,,104.189.159.234,
+956,"June 17th 2020, 13:29:40.380","""24.107.192.175,",soitrp,info,,24.107.192.175,
+957,"June 17th 2020, 13:29:40.380","""40.77.139.48,",soitrp,info,,40.77.139.48,
+960,"June 17th 2020, 13:29:40.377","""",Support-Client,info,,,""""
+961,"June 17th 2020, 13:29:40.377","""",Support-Client,info,,,""""
+964,"June 17th 2020, 13:29:40.362","""",Support-Client,info,,,""""
+965,"June 17th 2020, 13:29:40.362","""",Support-Client,info,,,""""
+969,"June 17th 2020, 13:29:40.362","""",Support-Client,info,,,""""
+971,"June 17th 2020, 13:29:40.362","""",Support-Client,info,,,""""
+972,"June 17th 2020, 13:29:40.355","""",Support-Client,info,,,""""
+973,"June 17th 2020, 13:29:40.348","""",Support-Client,info,,,""""
+974,"June 17th 2020, 13:29:40.206","""-",svc-soitrp,info,,,"""-"
+975,"June 17th 2020, 13:29:40.200","""129.187.125.246,",soitrp,info,,129.187.125.246,
+977,"June 17th 2020, 13:29:40.167","""",Support-Client,info,,,""""
+979,"June 17th 2020, 13:29:40.146","""",Support-Client,info,,,""""
+980,"June 17th 2020, 13:29:40.146",\x1b[41m\x1b[30mfail\x1b[39m\x1b[22m\x1b[49m: Dell.Support.Product.Search.Api.Controllers.CatalogController[0],ProductSelectorApi,info, Dell.Support.Product.Search.Api.Controllers.CatalogController[0],,
+982,"June 17th 2020, 13:29:40.110","""",Support-Client,info,,,""""
+985,"June 17th 2020, 13:29:40.098","""",Support-Client,info,,,""""
+986,"June 17th 2020, 13:29:40.065","""",Support-Client,info,,,""""
+988,"June 17th 2020, 13:29:40.058","""125.162.22.226,",soitrp,info,,125.162.22.226,
+989,"June 17th 2020, 13:29:40.049","""40.77.202.153,",soitrp,info,,40.77.202.153,
+990,"June 17th 2020, 13:29:40.049","""85.144.232.194,",soitrp,info,,85.144.232.194,
+992,"June 17th 2020, 13:29:40.019","""",Support-Client,info,,,""""
+993,"June 17th 2020, 13:29:40.015","""",Support-Client,info,,,""""
+996,"June 17th 2020, 13:29:39.988","""90.248.163.241,",soitrp,info,,90.248.163.241,
+997,"June 17th 2020, 13:29:39.982","""94.202.142.33,",soitrp,info,,94.202.142.33,
+999,"June 17th 2020, 13:29:39.976","""",Support-Client,info,,,""""
