@@ -1,0 +1,11 @@
+--index-url http://dcsartifacts.dell.com/artifactory/api/pypi/python/simple/ --trusted-host dcsartifacts.dell.com
+Flask
+pandas
+regex
+Requests
+pymsteams
+numpy==1.15.0
+flask_cors
+pymongo
+pyopenssl
+requests[security]

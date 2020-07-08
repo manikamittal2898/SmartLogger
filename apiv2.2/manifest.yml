@@ -1,0 +1,16 @@
+---
+applications:
+- name: kibana-alert-service
+  memory: 2G
+  disk_quota: 2G
+  random-route: true
+  timeout: 90
+  health_check_timeout: 180
+  health-check-type: process
+  random-route: false
+  buildpacks: 
+  - dicf_python_buildpack_177_cflinuxfs3
+  command: python api.py
+  env:
+    http_proxy: http://proxy.us.dell.com:80
+    https_proxy: https://proxy.us.dell.com:80
