@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import axios from 'axios'
 
 class Table extends Component {
    constructor(props) {
@@ -21,7 +21,7 @@ class Table extends Component {
                   "Exception_Details": " System.Exception: dellCategoryList Missing in service response "
             },
             {
-                "timestamp8601": "2020-07-14T12:52:02",
+                "timestamp8601": "2020-07-14T12:52:03",
                 "cf_app_name": "drivers-ux",
                 "Exception_Name": "System.Exception",
                 "Error_Message": " Service Response Error: MetaDocument service response does not contain dellCategoryList , -corId=> customstr101=ab421617-36db-4259-63d7-1a1b5aaba5ad , customstr102=Exception  ",
@@ -31,22 +31,35 @@ class Table extends Component {
       }
    }
 
+   componentDidMount(){
+       axios.get('http://127.0.0.1:8089/filterData?app_i=support-home-ux&app_x=flatcontents-ux&st=2020-07-14T12:50:21.309Z&et=2020-07-14T12:56:34.975Z')
+       .then(response=>{
+           console.log(response)
+           this.setState({records:response.data})
+       })
+       .catch(error=>{
+           console.log(error)
+       })
+
+   }
+
    renderTableData() {
     return this.state.records.map((record, index) => {
-       const { timestamp8601, cf_app_name, Exception_Name, Error_Message,Exception_Details } = record //destructuring
+       const { Exception_Details,timestamp8601,  Error_Message,cf_app_name, Exception_Name } = record //destructuring
        return (
           <tr key={timestamp8601}>
+             <td>{Exception_Details}</td>
              <td>{timestamp8601}</td>
+             <td>{Error_Message}</td>
              <td>{cf_app_name}</td>
              <td>{Exception_Name}</td>
-             <td>{Error_Message}</td>
-             <td>{Exception_Details}</td>
           </tr>
        )
     })
  }
 
  renderTableHeader() {
+   
     let header = Object.keys(this.state.records[0])
     return header.map((key, index) => {
        return <th key={index} >{key.toUpperCase()}</th>

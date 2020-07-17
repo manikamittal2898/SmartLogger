@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Table from './components/Table';
 import MultipleSelect from './components/Drop1';    
-//import SimpleTable from './components/Sample';                 
+import DateAndTimePicker from './components/DateTime';             
 
 function App() {
 
@@ -14,18 +14,23 @@ function App() {
 
   return (
     <div className="App">
-      <body className="App-body">
+      
       <div className="App-header" >
         <h1 style={{color:'#137997'}}>Dashboard: Error Logs</h1>
+        <div className="SameLine">
         <MultipleSelect/>
+        <DateAndTimePicker/>
+        <DateAndTimePicker/>
+        </div>
         <div className="SameLine">
         <button onClick={()=>{alert("Filters applied!")}}>APPLY FILTERS</button>
         <button onClick={refreshPage} >RELOAD!</button>
         </div>
-        <Table/>
+       <div ><Table/></div>
+        
       </div>
       
-      </body>
+      
          
     </div>
   );
