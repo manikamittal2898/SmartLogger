@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Table from './components/Table';
+import MultipleSelect from './components/Drop1';    
+//import SimpleTable from './components/Sample';                 
 
 function App() {
+
+  function refreshPage() {
+    //function to refresh this page
+    window.location.reload(false);
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <body className="App-body">
+      <div className="App-header" >
+        <h1 style={{color:'#137997'}}>Dashboard: Error Logs</h1>
+        <MultipleSelect/>
+        <div className="SameLine">
+        <button onClick={()=>{alert("Filters applied!")}}>APPLY FILTERS</button>
+        <button onClick={refreshPage} >RELOAD!</button>
+        </div>
+        <Table/>
+      </div>
+      
+      </body>
+         
     </div>
   );
 }

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -14,14 +15,36 @@
 }
 
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: small;
+  font-family: Times;
+  text-decoration: dashed;
+  
+}
+
+.App-body{
+  
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.Table-body{
+  font-size: small;
+  
+ 
+
+}
+.SameLine{
+  margin: 30px 0;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
 }
 
 .App-link {
