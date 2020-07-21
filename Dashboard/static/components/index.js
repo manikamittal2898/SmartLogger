@@ -255,7 +255,7 @@ function fetchDetails(lk) {
             // console.log(response.length)
             let res = JSON.parse(response)
             //console.log(res.length)
-            let val = document.getElementsByClassName('mydiv')[0].offsetHeight + 5;
+            let val = document.getElementsByClassName('mydiv')[0].offsetHeight - 30;
             document.getElementById('count').style.marginTop = val + "px"
             let tableContent = document.getElementById('contents')
             if (res.length > 0) {
@@ -293,7 +293,7 @@ function fetchDetails(lk) {
                         else exceptionMap.set(element['Exception_Name'], exceptionMap.get(element['Exception_Name']) + 1)
 
                     //let chip = `<td>${element['postId']}</td><td>${element['name']}</td><td>${element['email']}</td><td>${element['body']}</td>`
-                    let chip = `<td>${element['timestamp8601']}</td><td>${element['cf_app_name']}</td><td>${element['Exception_Name']}</td><td>${element['Error_Message']}</td><td>${element['Exception_Details']}</td>`
+                    let chip = `<tr><td>${element['timestamp8601']}</td><td>${element['cf_app_name']}</td><td>${element['Exception_Name']}</td><td>${element['Error_Message']}</td><td>${element['Exception_Details']}</td></tr>`
                     tableContent.innerHTML += chip;
                 });
                 tableContent.innerHTML += `</tbody>`
@@ -334,7 +334,7 @@ function showChips() {
         filters.innerHTML += chip;
     });
     //console.log(chipSet)
-    let val = document.getElementsByClassName('mydiv')[0].offsetHeight;
+    let val = document.getElementsByClassName('mydiv')[0].offsetHeight -30;
     document.getElementById('count').style.marginTop = val + "px"
 }
 
