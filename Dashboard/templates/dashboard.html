@@ -1,3 +1,5 @@
+
+  
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,6 +16,10 @@
     <link rel="stylesheet" href="/static/libs/timepicker.css" />
 
     <style>
+        td, th {
+            font-size: 12.5px;
+
+        }
         .chip {
 
             padding: 0 10px;
@@ -66,14 +72,14 @@
                 style='border-radius: 30px;margin:10px;vertical-align: middle;font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; font-style: normal; font-weight: 800; font-size: large; color: white;'><img
                     id='image' src='/static/components/analysis.png' width='25px'
                     style="margin-right: 5px;"></img>Visualise</button>
-            <h5 style="margin-top: 16px;padding-left: 60px;">Start Date</h5>
+            <h5 style="margin-top: 16px;padding-left: 20px;">Start Date</h5>
             <input type="text" id="datepicker" data-toggle="tooltip" data-placement="top" title="Enter Start Date-Time"
                 placeholder="Start Date-time" required="required" style="height: min-content; margin-top: 15px;border-radius: 20px;border-color: black;transform:none;
-        outline:none;background:transparent;padding-left: 10px;margin-left: 20px;text-align: center;">
-            <h5 style="margin-top: 16px;padding-left: 60px;">End Date</h5>
+        outline:none;background:transparent;padding-left: 10px;margin-left: 10px;text-align: center;">
+            <h5 style="margin-top: 16px;padding-left: 20px;">End Date</h5>
             <input autocomplete="off" type="text" id="datepicker1" data-toggle="tooltip" data-placement="top"
                 title="Enter End Date-Time" placeholder="End Date-time" required="required" style="height: min-content; margin-top: 15px;border-radius: 20px;border-color: black;transform:none;
-        outline:none;background:transparent;padding-left: 10px;margin-left: 20px;text-align: center;">
+        outline:none;background:transparent;padding-left: 10px;margin-left: 10px;text-align: center;">
         
             <button class="btn btn-success" type="button" id="apply"
                 style='border-radius: 30px;margin-left: 60px;margin-top:10px;margin-bottom:10px;vertical-align: middle;font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; font-style: normal; font-weight: 400; font-size: large; color: white;'>
@@ -171,7 +177,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
     <!-- <script
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.min.js"></script>
-
     <script> -->
     <script src="/static/libs/jquery-min.js"></script>
     <script src="/static/libs/jqueryui.js"></script>
@@ -220,8 +225,9 @@
                 filters.innerHTML += chip;
             });
             console.log(chipSet)
-            let val = document.getElementsByClassName('mydiv')[0].offsetHeight;
-            document.getElementById('count').style.marginTop = val + "px"
+            // let val = document.getElementsByClassName('mydiv')[0].offsetHeight;
+            // console.log(val)
+            // document.getElementById('count').style.marginTop = (val) + "px"
             console.log($('#datepicker').text)
             if (document.getElementById('datepicker').value != '')
                 document.getElementById('apply').click()
@@ -236,3 +242,4 @@
 </body>
 
 </html>
+
