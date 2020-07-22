@@ -38,7 +38,7 @@ def showDashboard() :
     st1 = datetime.strptime(st, "%Y-%m-%dT%H:%M:%S")
     et1 = datetime.strptime(et, "%Y-%m-%dT%H:%M:%S")
     print(st1)
-    print(parser.parse(str(st1)).isoformat())
+    # print(parser.parse(str(st1)).isoformat())
     mon = "0" + str(st1.month) if st1.month < 10 else str(st1.month)
     day = "0" + str(st1.day) if st1.day < 10 else str(st1.day)
     hour = "0" + str(st1.hour) if st1.hour < 10 else str(st1.hour)
