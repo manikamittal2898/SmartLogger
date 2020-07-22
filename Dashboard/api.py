@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from datetime import datetime
+import time
 
 
 app = Flask(__name__)
@@ -8,6 +9,7 @@ app = Flask(__name__)
 
 @app.route('/dashboard')
 def showDashboard() :
+    time.sleep(5)
     data = {}
     if len(request.args) == 0:
         data = {'st' : '', 'et' : '', 'app_i' : [], 'app_x' :[]}
@@ -41,4 +43,4 @@ def showNewDashboard() :
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8138)
+    app.run(debug=True,port=5015)
