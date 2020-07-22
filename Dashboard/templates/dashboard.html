@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" /> -->
+    <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.min.css" /> -->
+    <link rel="stylesheet" href="/static/libs/jqueryui.css" />
+    <link rel="stylesheet" href="/static/libs/timepicker.css" />
+
+    <style>
+        td,
+        th {
+            font-size: 11.5px;
+
+        }
+
+        .chip {
+
+            padding: 0 10px;
+            height: 25px;
+            font-size: 15px;
+            line-height: 23px;
+            border-radius: 25px;
+            color: white;
+            background-color: #5BC0DE;
+        }
+
+        .closebtn {
+            padding-left: 10px;
+            color: #000;
+            font-weight: bold;
+            float: right;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .closebtn:hover {
+            color: #ff0000;
+        }
+
+        .mydiv {
+            width: 100%;
+            /* Safari */
+            position: fixed;
+            top: 0;
+            background-color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="mydiv">
+        <nav id="navbar" class="navbar navbar-light"
+            style="background-color:rgb(43, 129, 228);border-radius: 0 0 30px 0;">
+
+            <a class="navbar-brand" href="http://127.0.0.1:5015/dashboard" style='color:white'>
+                <!-- <img src="/static/components/icon.png" width="30" height="30" alt="" loading="lazy"> -->
+                <strong> ERROR LOG DASHBOARD </strong>
+            </a>
+            
+                <div class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search something" aria-label="Search" id='query'>
+                </div>
+            
+        </nav>
+        <nav class="nav nav-pills nav-fill" style="margin-left: 5%;margin-top: 20px;">
+            <button title="Add Filters here" type="button" id="add-modal" class="btn btn-warning"
+                data-target="#staticBackdrop" data-toggle="modal"
+                style='border-radius: 10px;margin:10px;vertical-align: middle;font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; font-style: normal; font-weight: 550; font-size: large; color: white;'><img
+                    id='image' src='/static/components/plus.png' width='25px' style="margin-right: 5px;"></img>
+                Filter</button>
+            <button type="button" id="visual" class="btn btn-warning" data-target="#chartModal" data-toggle="modal"
+                style='border-radius: 10px;margin:10px;vertical-align: middle;font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; font-style: normal; font-weight: 550; font-size: large; color: white;'><img
+                    id='image' src='/static/components/analysis.png' width='25px'
+                    style="margin-right: 5px;"></img>Visualize</button>
+            <!-- <h5 style="margin-top: 16px;padding-left: 20px;font-size:18px">Start Period</h5> -->
+            <h6 style="margin-top: 20px;margin-left: 20px;">Start Date-Time</h6>
+            <input type="text" id="datepicker" data-toggle="tooltip" data-placement="top" title="Enter Start Date-Time"
+                placeholder="Start Date-time" required="required" style="height: min-content; margin-top: 15px;border-radius: 10px;border-color: black;transform:none;
+        outline:none;background:transparent;padding-left: 10px;margin-left: 10px;text-align: center;">
+            <!-- <h5 style="margin-top: 16px;padding-left: 20px;font-size:18px">End Period</h5> -->
+            <h6 style="margin-top: 20px;margin-left: 20px;">End Date-Time</h6>
+            <input autocomplete="off" type="text" id="datepicker1" data-toggle="tooltip" data-placement="top"
+                title="Enter End Date-Time" placeholder="End Date-time" required="required" style="height: min-content; margin-top: 15px;border-radius: 10px;border-color: black;transform:none;
+        outline:none;background:transparent;padding-left: 10px;margin-left: 10px;text-align: center;">
+
+            <button class="btn btn-primary" type="button" id="apply"
+                style='border-radius: 10px;margin-left: 30px;margin-top:10px;margin-bottom:10px;vertical-align: middle;font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; font-style: normal; font-weight: 500; font-size: large; color: white;'>
+                Apply
+
+            </button>
+        </nav>
+        <div id="filters" class="row container-fluid">
+        </div>
+
+        <hr>
+    </div>
+    <h6 id="count" style="float: right;margin-right: 10px;color: #FC0606;"></h6>
+    <div id="tables" class="mx-2">
+        <table class="table" id="contents" style="border-radius: 10px;">
+
+        </table>
+    </div>
+
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Add Filters</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="btn-group">
+                        <input type="text" readonly placeholder="Select" id="category-name" size="18"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-radius: 20px;border-color: black;transform:none;
+                        outline:none;background:transparent;padding-left: 5px;text-align: center;">
+                        <div class="dropdown-menu" style="border-radius: 2px;" id="category">
+                            <a class="dropdown-item">Application Name</a>
+                            <!-- <a class="dropdown-item">Exception Name</a> -->
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <input type="text" id="operator-name" readonly placeholder="choose" size="7"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-radius: 20px;border-color: black;transform:none;
+                            outline:none;background:transparent;padding-left: 5px;text-align: center;">
+                        <div class="dropdown-menu" style="border-radius: 2px;" id="operator">
+                            <a class="dropdown-item">is</a>
+                            <a class="dropdown-item">is not</a>
+                        </div>
+                    </div>
+                    <div class="btn-group" id="add-on">
+                        <input type="text" readonly placeholder="Select any" id="list" size="18" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="border-radius: 20px;border-color: black;transform:none;
+                                outline:none;background:transparent;padding-left: 5px;text-align: center;">
+                        <!-- <div class="dropdown-menu" style="border-radius: 2px;" id="list-item">
+                                    <a class="dropdown-item">is</a>
+                                    <a class="dropdown-item">is not</a> -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" id='close' data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" id="apply-filter">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="chartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Charts</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <canvas id="myChart">
+
+                    </canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
+    <!-- <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.min.js"></script>
+    <script> -->
+    <script src="/static/libs/jquery-min.js"></script>
+    <script src="/static/libs/jqueryui.js"></script>
+    <script src="/static/libs/timepicker-addon.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script>
+        jQuery(function ($) {
+            $("#datepicker").datetimepicker();
+        });
+    </script>
+    <script>
+        jQuery(function ($) {
+            $("#datepicker1").datetimepicker();
+        });
+    </script>
+    <script src="/static/components/index.js"></script>
+    <script>
+        loadParams({{ data| tojson}})
+
+        function loadParams(data) {
+            console.log(data)
+            $('#datepicker').val(data.st);
+            $('#datepicker1').val(data.et);
+            let chiplist = []
+            data.app_i.forEach(function (element, index) {
+                chiplist.push("Application Name is " + element)
+            });
+            data.app_x.forEach(function (element, index) {
+                chiplist.push("Application Name is not " + element)
+            });
+            console.log(chiplist)
+            localStorage.setItem('chips', JSON.stringify(chiplist));
+            console.log('h')
+            console.log(localStorage)
+            let filters = document.getElementById('filters')
+            filters.innerHTML = ``
+            let chipSet = new Set()
+            chipSet = new Set(chiplist)
+            console.log('hell')
+            chiplist.forEach(function (element, index) {
+                //print(element)
+                let chip = `<div class="chip my-2 mx-2">
+        ${element}
+        <span class="closebtn" id='${index}' onclick="delNote(this.id)">&times;</span>
+    </div>`
+                filters.innerHTML += chip;
+            });
+            console.log(chipSet)
+            // let val = document.getElementsByClassName('mydiv')[0].offsetHeight;
+            // console.log(val)
+            // document.getElementById('count').style.marginTop = (val) + "px"
+            console.log($('#datepicker').text)
+            if (document.getElementById('datepicker').value != '')
+                document.getElementById('apply').click()
+        }
+    </script>
+    <!-- <script>
+       document.getElementById('visual').addEventListener('click', function (e){
+        console.log(e)
+       });
+    </script> -->
+
+</body>
+
+</html>
