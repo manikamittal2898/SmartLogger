@@ -1,0 +1,513 @@
+[
+      {
+            "timestamp8601": "2020-07-14T12:53:40",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Exception",
+            "Error_Message": " home-critical-application-exception: Exception of type 'System.Exception' was thrown. error path: /support/home/nl-nl , corrId- customstr101= , customnb101=500 ",
+            "Exception_Details": " System.Exception: Exception of type 'System.Exception' was thrown. ->    at Dell.SupportOnline.Web.Middleware.RequestValidationModule.Invoke(HttpContext httpContext) ->    at Dell.SupportOnline.Common.Middleware.SecurityHeadersMiddleware.InvokeAsync(HttpContext httpContext) ->    at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext) ->    at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Dependency.LwpCultureUrlRedirectMiddlewareExtended.Invoke(HttpContext httpContext, IConfiguration configuration, ILogger`1 logger) in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Dependency/LwpCultureUrlRedirectMiddlewareExtended.cs:line 119 ->    at Dell.Identity.WebModule.Core.Middlewares.DaisAuthenticationMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Startup.<>c.<<Configure>b__8_0>d.MoveNext() in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Startup.cs:line 79 -> --- End of stack trace from previous location where exception was thrown --- ->    at Microsoft.AspNetCore.Builder.Extensions.UsePathBaseMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context) "
+      },
+      {
+            "timestamp8601": "2020-07-14T12:52:02",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Exception",
+            "Error_Message": " Service Response Error: MetaDocument service response does not contain dellCategoryList , -corId=> customstr101=ab421617-36db-4259-63d7-1a1b5aaba5ad , customstr102=Exception  ",
+            "Exception_Details": " System.Exception: dellCategoryList Missing in service response "
+      },
+      {
+            "timestamp8601": "2020-07-14T12:53:40",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "Number.Exception",
+            "Error_Message": " home-critical-application-exception: Exception of type 'System.Exception' was thrown. error path: /support/home/nl-nl , corrId- customstr101= , customnb101=500 ",
+            "Exception_Details": " System.Exception: Exception of type 'System.Exception' was thrown. ->    at Dell.SupportOnline.Web.Middleware.RequestValidationModule.Invoke(HttpContext httpContext) ->    at Dell.SupportOnline.Common.Middleware.SecurityHeadersMiddleware.InvokeAsync(HttpContext httpContext) ->    at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext) ->    at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Dependency.LwpCultureUrlRedirectMiddlewareExtended.Invoke(HttpContext httpContext, IConfiguration configuration, ILogger`1 logger) in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Dependency/LwpCultureUrlRedirectMiddlewareExtended.cs:line 119 ->    at Dell.Identity.WebModule.Core.Middlewares.DaisAuthenticationMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Startup.<>c.<<Configure>b__8_0>d.MoveNext() in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Startup.cs:line 79 -> --- End of stack trace from previous location where exception was thrown --- ->    at Microsoft.AspNetCore.Builder.Extensions.UsePathBaseMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context) "
+      },
+      {
+            "timestamp8601": "2020-07-14T12:52:02",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "Number.Exception",
+            "Error_Message": " Service Response Error: MetaDocument service response does not contain dellCategoryList , -corId=> customstr101=ab421617-36db-4259-63d7-1a1b5aaba5ad , customstr102=Exception  ",
+            "Exception_Details": " System.Exception: dellCategoryList Missing in service response "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:51:27",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Exception",
+            "Error_Message": " Service Response Error: MetaDocument service response does not contain dellCategoryList , -corId=> customstr101=1ae560be-0ab2-4c4b-5bc9-409594e2f6e7 , customstr102=Exception  ",
+            "Exception_Details": " System.Exception: dellCategoryList Missing in service response "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:50:03",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/ogata.takashi@nhs.co.jp?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM180TK3V9QD:00000424 ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:51:20",
+            "cf_app_name": "article-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/park17@gmail.com?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM0OPBPLGMHQ:00000001 ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:51:30",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Exception",
+            "Error_Message": " Service Response Error: MetaDocument service response does not contain dellCategoryList , -corId=> customstr101=3f14f0d2-458e-4e68-4216-ae503792c44b , customstr102=Exception  ",
+            "Exception_Details": " System.Exception: dellCategoryList Missing in service response "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:57:34",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=6db98d00-e9f6-44c4-4be2-9830b6c198aa ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:57:34",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=d0060fbe-25fc-447b-6926-6a9af7fc50fe ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:59:51",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=dbfbd3b0-00a8-4af4-5089-a0429bd4a8cb ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:59:49",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=bb31c312-e941-46aa-6197-a49ff3d4632a ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:05:26",
+            "cf_app_name": "support-ode-ux",
+            "Exception_Name": "Generic Exception",
+            "Error_Message": "No Data Extracted",
+            "Exception_Details": "No Data Extracted"
+      },
+      {
+            "timestamp8601": "2020-07-15T09:06:19",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/bernd.becker@regioit.de?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM180TKGOH19:000004BE ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:03:16",
+            "cf_app_name": "article-ux",
+            "Exception_Name": "Generic Exception",
+            "Error_Message": "No Data Extracted",
+            "Exception_Details": "No Data Extracted"
+      },
+      {
+            "timestamp8601": "2020-07-15T09:03:19",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/hazemkkaabboo@gmai.com?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM11MVF46R5H:00000436 ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:03:01",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.NullReferenceException",
+            "Error_Message": " ex:Error in GetCategoryContentAsync while loading the page: CategoryAdapter Object reference not set to an instance of an object. , -corId=> customstr101=a5f04848-d6bf-4e8f-531a-1e39dd2857be , customstr102=NullReferenceException  ",
+            "Exception_Details": " System.NullReferenceException: Object reference not set to an instance of an object. ->    at Dell.SupportOnline.Contents.Runtime.Adapter.CategoryAdapter.GetCategoryContentAsync(String categoryPath, String productCode, String serviceTag) in /builds/services/esupport/contents/ux/flatcontent/src/Dell.SupportOnline.Contents.Runtime/Adapter/CategoryAdapter.cs:line 108 "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:07:35",
+            "cf_app_name": "ProductSupport-UX",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/xiyou_zl@163.com?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=9b8912bb-d32f-4942-47aa-a02c3621fb0a ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:06:46",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Exception",
+            "Error_Message": " home-critical-application-exception: Exception of type 'System.Exception' was thrown. error path: /support/home/ru-ru , corrId- customstr101= , customnb101=500 ",
+            "Exception_Details": " System.Exception: Exception of type 'System.Exception' was thrown. ->    at Dell.SupportOnline.Web.Middleware.RequestValidationModule.Invoke(HttpContext httpContext) ->    at Dell.SupportOnline.Common.Middleware.SecurityHeadersMiddleware.InvokeAsync(HttpContext httpContext) ->    at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext) ->    at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Dependency.LwpCultureUrlRedirectMiddlewareExtended.Invoke(HttpContext httpContext, IConfiguration configuration, ILogger`1 logger) in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Dependency/LwpCultureUrlRedirectMiddlewareExtended.cs:line 119 ->    at Dell.Identity.WebModule.Core.Middlewares.DaisAuthenticationMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Startup.<>c.<<Configure>b__8_0>d.MoveNext() in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Startup.cs:line 79 -> --- End of stack trace from previous location where exception was thrown --- ->    at Microsoft.AspNetCore.Builder.Extensions.UsePathBaseMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:06:45",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=fe88eeaf-509e-4070-4959-00707c0c5ca0 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"ja\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:58:44",
+            "cf_app_name": "ProductSupport-UX",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/sandeepkumar1@omaxe.com?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=eab5a8d4-233e-4908-4951-60031449eb6d ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:58:18",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=14280cc4-2b25-490f-71ce-337fd737568a ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"es\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:03:56",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/SunilAlapatt@Gmail.com?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM11MVCKB97Q:0000054F ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:08:42",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/oiguchi0513@ezweb.ne.jp?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM180TK3V9R0:0000008D ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:53:26",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/ravi_meh@hotmail.com?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=c3574c59-d57f-4694-4da8-7cd7ad3162ec ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:50:19",
+            "cf_app_name": "article-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/michel.parmentier@proximus.com?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM0OPBSQ1F19:00000001 ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:50:25",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/mmuraoka@mmm.com?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=c7966679-bb10-4bc6-6e8b-51d9e67218a1 ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:50:19",
+            "cf_app_name": "article-ux",
+            "Exception_Name": "Generic Exception",
+            "Error_Message": "No Data Extracted",
+            "Exception_Details": "No Data Extracted"
+      },
+      {
+            "timestamp8601": "2020-07-15T08:56:25",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/arno.vanvuuren@outlook.com?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM180TJVQM3L:00000506 ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:57:37",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/nathan@lionsgatesecurities.com.au?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM180TKGOH18:000003F8 ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:57:25",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=89ef88f7-f918-498a-53cb-2104d4866026 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:57:59",
+            "cf_app_name": "support-ode-ux",
+            "Exception_Name": "Generic Exception",
+            "Error_Message": "No Data Extracted",
+            "Exception_Details": "No Data Extracted"
+      },
+      {
+            "timestamp8601": "2020-07-15T08:57:42",
+            "cf_app_name": "support-ode-ux",
+            "Exception_Name": "Generic Exception",
+            "Error_Message": "No Data Extracted",
+            "Exception_Details": "No Data Extracted"
+      },
+      {
+            "timestamp8601": "2020-07-15T08:55:48",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.NullReferenceException",
+            "Error_Message": " ex:Error in GetCategoryContentAsync while loading the page: CategoryAdapter Object reference not set to an instance of an object. , -corId=> customstr101=dc111e84-4101-4837-5988-c9c153d1f987 , customstr102=NullReferenceException  ",
+            "Exception_Details": " System.NullReferenceException: Object reference not set to an instance of an object. ->    at Dell.SupportOnline.Contents.Runtime.Adapter.CategoryAdapter.GetCategoryContentAsync(String categoryPath, String productCode, String serviceTag) in /builds/services/esupport/contents/ux/flatcontent/src/Dell.SupportOnline.Contents.Runtime/Adapter/CategoryAdapter.cs:line 108 "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:56:41",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=344b0f4c-44eb-41ae-6259-788237f0196e ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:57:11",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=cce5a434-28c9-4377-66ae-1ec79792aa20 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:51:48",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=4d7e7903-b629-422b-4a34-c5c0b7dc7eac ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:50:49",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=92da5722-e579-43dd-4174-e39cd02a4c51 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"fr\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:50:56",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Exception",
+            "Error_Message": " home-critical-application-exception: Exception of type 'System.Exception' was thrown. error path: /support/home/ja-jp , corrId- customstr101= , customnb101=500 ",
+            "Exception_Details": " System.Exception: Exception of type 'System.Exception' was thrown. ->    at Dell.SupportOnline.Web.Middleware.RequestValidationModule.Invoke(HttpContext httpContext) ->    at Dell.SupportOnline.Common.Middleware.SecurityHeadersMiddleware.InvokeAsync(HttpContext httpContext) ->    at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext) ->    at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Dependency.LwpCultureUrlRedirectMiddlewareExtended.Invoke(HttpContext httpContext, IConfiguration configuration, ILogger`1 logger) in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Dependency/LwpCultureUrlRedirectMiddlewareExtended.cs:line 119 ->    at Dell.Identity.WebModule.Core.Middlewares.DaisAuthenticationMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Startup.<>c.<<Configure>b__8_0>d.MoveNext() in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Startup.cs:line 79 -> --- End of stack trace from previous location where exception was thrown --- ->    at Microsoft.AspNetCore.Builder.Extensions.UsePathBaseMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:53:50",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/hwk-cottbus@gmx.de?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM180TJVQM4J:0000003A ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:54:32",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=f63d82ec-0597-4232-4e63-335b4f6e3c1a ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:53:52",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=b1fa0a4e-19ad-4aba-451c-85737e5f9a88 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"pt\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:54:27",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=71f4959b-05a4-4e40-44fd-23b7bb093852 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:51:40",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/wwwhama@nate.com?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM11MVJVJPF6:00000060 ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:54:34",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=be379b02-bed7-4ebf-6230-3cf3cd64add2 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"de\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:55:28",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Exception",
+            "Error_Message": " home-critical-application-exception: Exception of type 'System.Exception' was thrown. error path: /support/home/en-uk , corrId- customstr101= , customnb101=500 ",
+            "Exception_Details": " System.Exception: Exception of type 'System.Exception' was thrown. ->    at Dell.SupportOnline.Web.Middleware.RequestValidationModule.Invoke(HttpContext httpContext) ->    at Dell.SupportOnline.Common.Middleware.SecurityHeadersMiddleware.InvokeAsync(HttpContext httpContext) ->    at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext) ->    at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Dependency.LwpCultureUrlRedirectMiddlewareExtended.Invoke(HttpContext httpContext, IConfiguration configuration, ILogger`1 logger) in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Dependency/LwpCultureUrlRedirectMiddlewareExtended.cs:line 119 ->    at Dell.Identity.WebModule.Core.Middlewares.DaisAuthenticationMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Startup.<>c.<<Configure>b__8_0>d.MoveNext() in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Startup.cs:line 79 -> --- End of stack trace from previous location where exception was thrown --- ->    at Microsoft.AspNetCore.Builder.Extensions.UsePathBaseMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:55:37",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/dimitri.creve@vab.be?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM180PVM51C9:00000035 ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:53:56",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=e07164c2-99d9-4958-4193-d22a2f7fa685 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:56:16",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.EmcHttpClient  https://ssgosghop.isus.emc.com/services/online/user/imirosh@freecom.ru?apikey=l7xxb2e7f5f940624a49829af31a0cd9f081 , customstr101=0HM180TKJT2T2:0000047B ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code InternalServerError ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:01:47",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Exception",
+            "Error_Message": " Service Response Error: MetaDocument service response does not contain dellCategoryList , -corId=> customstr101=3f118461-0073-4628-761a-6380428300b4 , customstr102=Exception  ",
+            "Exception_Details": " System.Exception: dellCategoryList Missing in service response "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:56:18",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=6895c2e2-ee5e-4f34-40cc-96a0664e1d8a ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"fr\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:56:18",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=6895c2e2-ee5e-4f34-40cc-96a0664e1d8a ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"fr\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:59:06",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=0b5a1f98-5532-4531-5ea6-ad7a83536c00 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"zh\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:57:47",
+            "cf_app_name": "support-home-ux",
+            "Exception_Name": "System.Exception",
+            "Error_Message": " home-critical-application-exception: Exception of type 'System.Exception' was thrown. error path: /support/home/en-us , corrId- customstr101= , customnb101=500 ",
+            "Exception_Details": " System.Exception: Exception of type 'System.Exception' was thrown. ->    at Dell.SupportOnline.Web.Middleware.RequestValidationModule.Invoke(HttpContext httpContext) ->    at Dell.SupportOnline.Common.Middleware.SecurityHeadersMiddleware.InvokeAsync(HttpContext httpContext) ->    at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext) ->    at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Dependency.LwpCultureUrlRedirectMiddlewareExtended.Invoke(HttpContext httpContext, IConfiguration configuration, ILogger`1 logger) in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Dependency/LwpCultureUrlRedirectMiddlewareExtended.cs:line 119 ->    at Dell.Identity.WebModule.Core.Middlewares.DaisAuthenticationMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Home.Web.Startup.<>c.<<Configure>b__8_0>d.MoveNext() in /builds/services/esupport/home/src/Dell.SupportOnline.Home.Web/Startup.cs:line 79 -> --- End of stack trace from previous location where exception was thrown --- ->    at Microsoft.AspNetCore.Builder.Extensions.UsePathBaseMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:57:51",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=5ad8ac6b-c19f-41fb-7b11-55c52a127261 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"pl\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:58:18",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=14280cc4-2b25-490f-71ce-337fd737568a ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"es\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:58:57",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=c94e5513-00c2-4376-4193-4c10cebe7553 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"fr\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T08:58:57",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=c94e5513-00c2-4376-4193-4c10cebe7553 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"fr\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:00:38",
+            "cf_app_name": "support-ode-ux",
+            "Exception_Name": "System.FormatException",
+            "Error_Message": " error from DecryptString ",
+            "Exception_Details": " System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. ->    at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength) ->    at System.Convert.FromBase64String(String s) ->    at Dell.SupportOnline.Common.Services.CryptographyService.DecryptString(String encryptedString) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:07:34",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=2fce9672-6879-4f17-6e17-9a9c70257b03 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:07:47",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=4e9e01e9-0820-4b71-6774-3af2ff1bd779 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:04:04",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=2af814a4-464f-43e6-7175-ea2a3acafb0d ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:09:35",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=b0a2f4db-afdf-4282-75c1-ff7dd6e530ea ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:10:18",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=e7b929ea-e1a7-4fa9-6824-d23f5d101081 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:10:19",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=bae3aec2-398a-4087-4735-9a7c442fd687 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:11:39",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=22e618af-2b85-4053-4843-62d1ee0422a9 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"fr\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:11:49",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Exception",
+            "Error_Message": " Service Response Error: MetaDocument service response does not contain dellCategoryList , -corId=> customstr101=469c3bf7-3adc-4009-6e9d-65911bcb4b03 , customstr102=Exception  ",
+            "Exception_Details": " System.Exception: dellCategoryList Missing in service response "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:11:30",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=2ce150fd-f096-44d1-5bf2-2ab3506ce92f ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"ru\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:09:55",
+            "cf_app_name": "ProductSupport-UX",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.AsqApiHttpClient  http://esupport.dellsvc/support.assetsearch/api/assets/tag/33881454614+?country=in&language=en&region=ap&inc=productdetails&inc=integratedproductdetails&inc=solutionhdr&appid=ABD29759-0BD4-4898-ADDF-0B12D05CEB9A , customstr101=35606765-aa19-4188-7f27-8ecbf8fa19e2 ,  customstr102=HttpRequestException , postdata = NA  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code NotFound ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:15:46",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=eac19f08-c440-41eb-7c1c-38636a986974 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"fr\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:11:46",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=8c64db27-d546-4e31-783c-d17be78c9ccf ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"en\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:12:31",
+            "cf_app_name": "flatcontents-ux",
+            "Exception_Name": "System.Net.Http.HttpRequestException",
+            "Error_Message": " error-in-api call.RoutingEngineHttpClient  https://rulesengineapi.ausmsc01.pcf.dell.com/api/Ruleset/Troubleshooting_Video_Profile_IDs?source=Troubleshooting&country=us&language=en&region=us&appid=9342BEC8-2568-46B4-9F73-EF8C297D160F , customstr101=f7cbd2d8-b911-4ad0-5570-bf55d49dd222 ,  customstr102=HttpRequestException , postdata = {\\\"Parameters\\\":[{\\\"KeyParam\\\":\\\"Form.LanguageCode\\\",\\\"ValueParam\\\":\\\"pt\\\"}]}  ",
+            "Exception_Details": " System.Net.Http.HttpRequestException: Invalid-Status-Code Unauthorized ->    at Dell.SupportOnline.Common.WebClient.SupportHttpClient`1.SendDataAsJsonResultAsync[TResponse](HttpRequestMessage httpRequestMessage, IUserContext userContext) "
+      },
+      {
+            "timestamp8601": "2020-07-15T09:18:20",
+            "cf_app_name": "drivers-ux",
+            "Exception_Name": "System.Exception",
+            "Error_Message": " critical-application-exception: Exception of type 'System.Exception' was thrown. error path: /support/driver/en-us/ips/api/driverlist/validatetag , fullpath: /support/driver/en-us/ips/api/driverlist/validatetag?serviceTag=__serviceTag'; , corrId- customstr101=d9595efc-98fd-414e-6c30-d53ba9a90ffa , customnb101=500 , customstr102=Exception  ",
+            "Exception_Details": " System.Exception: Exception of type 'System.Exception' was thrown. ->    at Dell.SupportOnline.Web.Middleware.RequestValidationModule.Invoke(HttpContext httpContext) ->    at Dell.SupportOnline.Common.Middleware.SecurityHeadersMiddleware.InvokeAsync(HttpContext httpContext) ->    at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.CorrelationId.CorrelationIdMiddleware.Invoke(HttpContext context, ICorrelationContextAccessor correlationContextAccessor) ->    at Dell.SupportOnline.Drivers.Web.Middleware.LwpCultureUrlRedirectMiddlewareOverride.Invoke(HttpContext httpContext, IConfiguration configuration, ILogger`1 logger) in /builds/services/esupport/drivers/UX/driversweb/src/Dell.SupportOnline.Drivers.Web/Middleware/LwpCultureUrlRedirectMiddlewareOverride.cs:line 121 ->    at Dell.Identity.WebModule.Core.Middlewares.DaisAuthenticationMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Web.Middleware.MiniMetricsPipeline.LogMiniMetrics(HttpContext httpContext, String userAgent) ->    at Dell.SupportOnline.Web.Middleware.MiniMetricsPipeline.Invoke(HttpContext httpContext) ->    at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context) ->    at Dell.SupportOnline.Common.Middleware.HealthCheckModule.Invoke(HttpContext httpContext) ->    at Microsoft.AspNetCore.Builder.Extensions.UsePathBaseMiddleware.Invoke(HttpContext context) ->    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context) "
+      }
+]

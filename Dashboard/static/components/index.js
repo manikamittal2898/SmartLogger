@@ -384,36 +384,36 @@ document.getElementById('query').addEventListener('input', function (e) {
                 tr[i].style.display = "none"
             }
         }
-        // if (isFound == false) {
-        //     td = tr[i].getElementsByTagName('td')[3]
-        //     console.log(td)
-        //     if (td) {
-        //         textVal = td.textContent || td.innerText;
-        //         if (textVal.toUpperCase().indexOf(filter) > -1) {
-        //             tr[i].style.display = "";
-        //             count = count + 1
-        //             isFound = true;
+        if (isFound == false) {
+            td = tr[i].getElementsByTagName('td')[3]
+            console.log(td)
+            if (td) {
+                textVal = td.textContent || td.innerText;
+                if (textVal.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                    count = count + 1
+                    isFound = true;
 
-        //         } else {
-        //             tr[i].style.display = "none"
-        //         }
-        //     }
-        // }
-        // if (isFound == false) {
-        //     td = tr[i].getElementsByTagName('td')[4]
-        //     console.log(td)
-        //     if (td) {
-        //         textVal = td.textContent || td.innerText;
-        //         if (textVal.toUpperCase().indexOf(filter) > -1) {
-        //             tr[i].style.display = "";
-        //             count = count + 1
-        //             isFound = true;
+                } else {
+                    tr[i].style.display = "none"
+                }
+            }
+        }
+        if (isFound == false) {
+            td = tr[i].getElementsByTagName('td')[4]
+            console.log(td)
+            if (td) {
+                textVal = td.textContent || td.innerText;
+                if (textVal.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                    count = count + 1
+                    isFound = true;
 
-        //         } else {
-        //             tr[i].style.display = "none"
-        //         }
-        //     }
-        // }
+                } else {
+                    tr[i].style.display = "none"
+                }
+            }
+        }
     }
     document.getElementById('count').innerHTML = 'Total Count - ' + count
 });

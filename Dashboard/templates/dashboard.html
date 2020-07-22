@@ -21,7 +21,7 @@
 
         }
         th {
-  position: -webkit-sticky;
+  /* position: fixed; */
   position: sticky;
   top: 0;
   z-index: 2;
@@ -68,7 +68,7 @@
             style="background-color:rgb(43, 129, 228);border-radius: 0 0 30px 0;">
 
             <a class="navbar-brand" href="http://127.0.0.1:5015/dashboard" style='color:white'>
-                <!-- <img src="/static/components/icon.png" width="30" height="30" alt="" loading="lazy"> -->
+                <img src="/static/components/dell.png" width="30" height="30" alt="" loading="lazy">
                 <strong> ERROR LOG DASHBOARD </strong>
             </a>
             
@@ -78,14 +78,14 @@
             
         </nav>
         <nav class="nav nav-pills nav-fill" style="margin-left: 5%;margin-top: 20px;">
-            <button title="Add Filters here" type="button" id="add-modal" class="btn btn-warning"
+            <button title="Add Filters here" type="button" id="add-modal" class="btn btn-primary"
                 data-target="#staticBackdrop" data-toggle="modal"
                 style='border-radius: 10px;margin:10px;vertical-align: middle;font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; font-style: normal; font-weight: 550; font-size: large; color: white;'><img
-                    id='image' src='/static/components/plus.png' width='25px' style="margin-right: 5px;"></img>
+                    id='image' src='/static/components/plus2.png' width='25px' style="margin-right: 5px;"></img>
                 Filter</button>
-            <button type="button" id="visual" class="btn btn-warning" data-target="#chartModal" data-toggle="modal"
+            <button type="button" id="visual" class="btn btn-primary" data-target="#chartModal" data-toggle="modal"
                 style='border-radius: 10px;margin:10px;vertical-align: middle;font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; font-style: normal; font-weight: 550; font-size: large; color: white;'><img
-                    id='image' src='/static/components/analysis.png' width='25px'
+                    id='image' src='/static/components/pie2.png' width='25px'
                     style="margin-right: 5px;"></img>Visualize</button>
             <!-- <h5 style="margin-top: 16px;padding-left: 20px;font-size:18px">Start Period</h5> -->
             <h6 style="margin-top: 20px;margin-left: 20px;">Start Date-Time</h6>
@@ -164,7 +164,7 @@
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Distribution of Exceptions</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Graphical Representation</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
