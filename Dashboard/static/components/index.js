@@ -39,7 +39,7 @@ document.getElementById('visual').addEventListener('click', function (e) {
         let colorz = []
         let i = 0;
         if (appsSize >= exceptionSize) {
-            
+
             labell = 'Applications'
             appList.forEach(function (element) {
                 labelz.push(element)
@@ -47,7 +47,7 @@ document.getElementById('visual').addEventListener('click', function (e) {
                 colorz.push(colors[i])
                 i = i + 1;
             });
-            
+
 
         } else {
             labell = 'Exceptions'
@@ -57,7 +57,7 @@ document.getElementById('visual').addEventListener('click', function (e) {
                 colorz.push(colors[i])
                 i = i + 1;
             });
-            
+
         }
         console.log(labelz)
 
@@ -67,7 +67,7 @@ document.getElementById('visual').addEventListener('click', function (e) {
             type: 'doughnut',
 
             // The data for our dataset
-            
+
             data: {
                 labels: labelz,
                 datasets: [{
@@ -173,6 +173,13 @@ apply.addEventListener('click', function (e) {
         if (startTime.localeCompare(endTime) <= 0) {
             //console.log(startTime.localeCompare(endTime))
             let urlLink = 'filterData?st=' + startTime + '&et=' + endTime
+            let notes = localStorage.getItem('chips');
+            if (notes == null) {
+                chipList = [];
+            } else {
+                chipList = JSON.parse(notes);
+            }
+            chipSet = new Set(chipList)
             for (let item of chipSet) {
                 if (item.indexOf('Application Name') != -1) {
                     if (item.indexOf('is not') != -1) {
@@ -196,6 +203,7 @@ apply.addEventListener('click', function (e) {
                 }
             }
             urlLink = 'http://127.0.0.1:8089/' + urlLink
+            //urlLink = 'https://server-dash.herokuapp.com/' + urlLink
             console.log(urlLink)
             let myURL = "https://jsonplaceholder.typicode.com/comments"
             apply.innerHTML = ``
@@ -241,7 +249,7 @@ function delNote(index) {
     document.getElementById('count').style.marginTop = val + "px"
 }
 function changeButton() {
-    apply.innerHTML = `Apply Changes`
+    apply.innerHTML = `Apply`
     apply.removeAttribute('disabled', 'disabled');
 }
 
@@ -255,7 +263,7 @@ function fetchDetails(lk) {
             // console.log(response.length)
             let res = JSON.parse(response)
             //console.log(res.length)
-            let val = document.getElementsByClassName('mydiv')[0].offsetHeight - 30;
+            let val = document.getElementsByClassName('mydiv')[0].offsetHeight - 0;
             document.getElementById('count').style.marginTop = val + "px"
             let tableContent = document.getElementById('contents')
             if (res.length > 0) {
@@ -278,19 +286,19 @@ function fetchDetails(lk) {
                 console.log(res)
                 res.forEach(function (element) {
 
-                    if (appsMap.get(element['cf_app_name']) == undefined) { 
-                    appsMap.set(element['cf_app_name'], 1) 
-                    appsSize = appsSize + 1 
-                    appList.push(element['cf_app_name'])
-                }
+                    if (appsMap.get(element['cf_app_name']) == undefined) {
+                        appsMap.set(element['cf_app_name'], 1)
+                        appsSize = appsSize + 1
+                        appList.push(element['cf_app_name'])
+                    }
                     else appsMap.set(element['cf_app_name'], appsMap.get(element['cf_app_name']) + 1)
-                    
-                    if (exceptionMap.get(element['Exception_Name']) == undefined) { 
-                        exceptionMap.set(element['Exception_Name'], 1) 
-                        exceptionSize = exceptionSize + 1 
+
+                    if (exceptionMap.get(element['Exception_Name']) == undefined) {
+                        exceptionMap.set(element['Exception_Name'], 1)
+                        exceptionSize = exceptionSize + 1
                         exceptionList.push(element['Exception_Name'])
                     }
-                        else exceptionMap.set(element['Exception_Name'], exceptionMap.get(element['Exception_Name']) + 1)
+                    else exceptionMap.set(element['Exception_Name'], exceptionMap.get(element['Exception_Name']) + 1)
 
                     //let chip = `<td>${element['postId']}</td><td>${element['name']}</td><td>${element['email']}</td><td>${element['body']}</td>`
                     let chip = `<tr><td>${element['timestamp8601']}</td><td>${element['cf_app_name']}</td><td>${element['Exception_Name']}</td><td>${element['Error_Message']}</td><td>${element['Exception_Details']}</td></tr>`
@@ -334,8 +342,69 @@ function showChips() {
         filters.innerHTML += chip;
     });
     //console.log(chipSet)
-    let val = document.getElementsByClassName('mydiv')[0].offsetHeight -30;
+    let val = document.getElementsByClassName('mydiv')[0].offsetHeight;
     document.getElementById('count').style.marginTop = val + "px"
 }
+document.getElementById('query').addEventListener('input', function (e) {
+    console.log(e)
+    let input;
+    let filter;
+    let table;
+    let tr;
+    let td;
+    let i;
+    let count = 0;
+    let textVal;
+    input = document.getElementById('query')
+    filter = input.value.toUpperCase();
+    table = document.getElementById('contents')
+    tr = table.getElementsByTagName('tr')
+    for (i = 0; i < tr.length; i++) {
+        let isFound = false;
+        td = tr[i].getElementsByTagName('td')[2]
+        console.log(td)
+        if (td) {
+            textVal = td.textContent || td.innerText;
+            if (textVal.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+                count = count + 1
+                isFound = true;
 
+            } else {
+                tr[i].style.display = "none"
+            }
+        }
+        if (isFound == false) {
+            td = tr[i].getElementsByTagName('td')[3]
+            console.log(td)
+            if (td) {
+                textVal = td.textContent || td.innerText;
+                if (textVal.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                    count = count + 1
+                    isFound = true;
+
+                } else {
+                    tr[i].style.display = "none"
+                }
+            }
+        }
+        if (isFound == false) {
+            td = tr[i].getElementsByTagName('td')[4]
+            console.log(td)
+            if (td) {
+                textVal = td.textContent || td.innerText;
+                if (textVal.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                    count = count + 1
+                    isFound = true;
+
+                } else {
+                    tr[i].style.display = "none"
+                }
+            }
+        }
+    }
+    document.getElementById('count').innerHTML = 'Total Count - ' + count
+});
 
