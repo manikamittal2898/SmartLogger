@@ -271,6 +271,8 @@ function fetchDetails(lk) {
             let val = document.getElementsByClassName('mydiv')[0].offsetHeight - 0;
             document.getElementById('count').style.marginTop = val + "px"
             let tableContent = document.getElementById('contents')
+            tableContent.style.display = "none"
+            tableContent.style.tableLayout = "fixed"
             if (res.length > 0) {
 
                 tableContent.innerHTML = `<thead class="thead-dark" style='margin-top:${val+5}px'>
@@ -294,30 +296,33 @@ function fetchDetails(lk) {
                 appList = []
                 exceptionList = []
                 console.log(res)
-                res.forEach(function (element) {
-
-                    if (appsMap.get(element['cf_app_name']) == undefined) {
-                        appsMap.set(element['cf_app_name'], 1)
+                let j = 0;
+                while (j < res.length){
+                    console.log(j)
+                    if (appsMap.get(res[j]['cf_app_name']) == undefined) {
+                        appsMap.set(res[j]['cf_app_name'], 1)
                         appsSize = appsSize + 1
-                        appList.push(element['cf_app_name'])
+                        appList.push(res[j]['cf_app_name'])
                     }
-                    else appsMap.set(element['cf_app_name'], appsMap.get(element['cf_app_name']) + 1)
+                    else appsMap.set(res[j]['cf_app_name'], appsMap.get(res[j]['cf_app_name']) + 1)
 
-                    if (exceptionMap.get(element['Exception_Name']) == undefined) {
-                        exceptionMap.set(element['Exception_Name'], 1)
+                    if (exceptionMap.get(res[j]['Exception_Name']) == undefined) {
+                        exceptionMap.set(res[j]['Exception_Name'], 1)
                         exceptionSize = exceptionSize + 1
-                        exceptionList.push(element['Exception_Name'])
+                        exceptionList.push(res[j]['Exception_Name'])
                     }
-                    else exceptionMap.set(element['Exception_Name'], exceptionMap.get(element['Exception_Name']) + 1)
+                    else exceptionMap.set(res[j]['Exception_Name'], exceptionMap.get(res[j]['Exception_Name']) + 1)
 
                     //let chip = `<td>${element['postId']}</td><td>${element['name']}</td><td>${element['email']}</td><td>${element['body']}</td>`
-                    let chip = `<tr><td>${element['timestamp8601']}</td><td>${element['cf_app_name']}</td><td>${element['Exception_Name']}</td><td>${element['Error_Message']}</td><td>${element['Exception_Details']}</td></tr>`
+                    let chip = `<tr><td>${res[j]['timestamp8601']}</td><td>${res[j]['cf_app_name']}</td><td>${res[j]['Exception_Name']}</td><td>${res[j]['Error_Message']}</td><td>${res[j]['Exception_Details']}</td></tr>`
                     tableContent.innerHTML += chip;
-                });
+                    j = j + 1
+                }
                 tableContent.innerHTML += `</tbody>`
                 document.getElementById('count').innerHTML = 'Total Count - ' + res.length
                 console.log(appsSize)
                 console.log(exceptionSize)
+                tableContent.style.display = "table"
                 setTimeout(changeButton(), 10000);
             } else {
                 tableContent.innerHTML = `<h3 style="text-align:center;">No Results found!</h3>`
