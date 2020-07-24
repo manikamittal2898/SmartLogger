@@ -207,7 +207,7 @@ apply.addEventListener('click', function (e) {
                     }
                 }
             }
-            urlLink = 'http://127.0.0.1:8089/' + urlLink
+            urlLink = 'http://127.0.0.1:5031/' + urlLink
             //urlLink = 'https://server-dash.herokuapp.com/' + urlLink
             console.log(urlLink)
             let myURL = "https://jsonplaceholder.typicode.com/comments"
@@ -272,9 +272,12 @@ function fetchDetails(lk) {
             document.getElementById('count').style.marginTop = val + "px"
             let tableContent = document.getElementById('contents')
             tableContent.style.display = "none"
-            tableContent.style.tableLayout = "fixed"
+            // tableContent.style.tableLayout = "fixed"
             if (res.length > 0) {
-
+                    let size=res.length
+                    if (res.length>2500){
+                        size=2500
+                    }
                 tableContent.innerHTML = `<thead class="thead-dark" style='margin-top:${val+5}px'>
     <tr>
       <th scope="col" style='font-size: 15px'>Timestamp </th>
@@ -297,7 +300,7 @@ function fetchDetails(lk) {
                 exceptionList = []
                 console.log(res)
                 let j = 0;
-                while (j < res.length){
+                while (j < size){
                     console.log(j)
                     if (appsMap.get(res[j]['cf_app_name']) == undefined) {
                         appsMap.set(res[j]['cf_app_name'], 1)
@@ -324,6 +327,9 @@ function fetchDetails(lk) {
                 console.log(exceptionSize)
                 tableContent.style.display = "table"
                 setTimeout(changeButton(), 10000);
+                if(res.length>2500){
+                    alert(`Table size exceeded. Top 2500 records are being displayed.`)
+                }
             } else {
                 tableContent.innerHTML = `<h3 style="text-align:center;">No Results found!</h3>`
                 document.getElementById('count').innerHTML = ''
